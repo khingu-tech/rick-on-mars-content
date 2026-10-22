@@ -1037,26 +1037,35 @@
           "que te acordas",
           "como fue el viaje",
           "cuando te dormiste",
-          "droga"
+          "droga",
+          "omnibus",
+          "micro",
+          "militar"
         ]
       },
       "answers": [
         {
           "mood": "worried",
           "text": {
-            "es": "Lo último que recuerdo es un reloj marcando las 23:45 y una voz que no paraba de hablar. Después, nada."
+            "es": "Lo último que recuerdo de la Tierra es un reloj marcando las 23:45 y una voz que no paraba de hablar. Después me desperté en un ómnibus militar."
           }
         },
         {
           "mood": "calm",
           "text": {
-            "es": "Fue en una habitación de hotel. Me fui quedando dormido mientras me explicaban todo. Del resto no me acuerdo bien."
+            "es": "Me quedé dormido en un hotel de Miami mientras me explicaban todo. Desperté a la mañana en un ómnibus militar. Del medio, casi nada."
           }
         },
         {
           "mood": "worried",
           "text": {
-            "es": "Me acuerdo del número del reloj. De lo demás, solo del tono de la voz: tranquilo, muy tranquilo. Demasiado."
+            "es": "Me acuerdo del número del reloj y del tono de la voz: tranquilo, muy tranquilo. Demasiado. Lo demás se me borra."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Un hotel, una voz, un sedante. A la mañana siguiente, un ómnibus con soldados. Así empezó todo."
           }
         }
       ]
