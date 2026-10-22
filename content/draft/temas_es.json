@@ -1,0 +1,704 @@
+{
+  "version": 1,
+  "language": "es",
+  "status": "borrador para revisión",
+  "intents": [
+    {
+      "id": "colony_overview",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "colonia",
+          "aries prime",
+          "como es la colonia",
+          "donde vivis",
+          "hogar",
+          "base",
+          "hábitat",
+          "habitat"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Aries Prime es una colonia en un cañón. Domos, túneles y una torre que se ve desde cualquier punto. Hogar, aunque nadie la eligió."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Imaginate un pueblo chico bajo cúpulas, con luces cálidas y el cielo color óxido de fondo. Así es Aries Prime."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Somos unas pocas decenas de personas. Todos nos conocemos, aunque no todos nos caemos bien."
+          }
+        }
+      ]
+    },
+    {
+      "id": "domes_tunnels",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "domo",
+          "domos",
+          "cupula",
+          "tunel",
+          "tuneles",
+          "pasillos",
+          "sectores",
+          "modulo",
+          "modulos"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Los domos son la parte linda. Los túneles, la parte útil: conectan todo y te ahorran el traje."
+          }
+        },
+        {
+          "mood": "focused",
+          "text": {
+            "es": "El hábitat se arma por módulos. Cada tanto llega uno nuevo y cambia el mapa de la colonia."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Dentro de los domos hay luz casi natural. Es lo más parecido a estar en la Tierra."
+          }
+        }
+      ]
+    },
+    {
+      "id": "airlock_suit",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "esclusa",
+          "traje",
+          "salir afuera",
+          "afuera",
+          "superficie",
+          "caminar",
+          "paseo"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "focused",
+          "text": {
+            "es": "Salir implica esclusa, presurizar, chequear el traje dos veces. Tarda 20 minutos y te acostumbrás."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Caminar en Marte es raro. Pesás un tercio, pero el traje pesa por tres."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Afuera no hay margen de error. Por eso soy obsesivo con los chequeos."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rovers",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "rover",
+          "rovers",
+          "explorar",
+          "exploracion",
+          "expedicion",
+          "vehiculo",
+          "convoy",
+          "moto"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Los rovers son lo mejor del día. Un convoy cruzando el cañón al atardecer es una postal."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Las expediciones salen a explorar y mapear. A veces vuelven con cosas que nadie sabe explicar."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Salgo poco con los rovers. Mi trabajo es que adentro no falte nada."
+          }
+        }
+      ]
+    },
+    {
+      "id": "greenhouse",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "invernadero",
+          "plantas",
+          "cultivo",
+          "huerta",
+          "tomates",
+          "verde",
+          "jardin"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "El invernadero es lo mejor de la colonia: tomates bajo un domo, con vista al cañón. Mirá."
+          },
+          "eventId": "evt_greenhouse"
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Cuando entro al invernadero huele a tierra mojada. Me quedo un rato de más."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "La botánica del equipo cuida cada planta como si fuera hija. Yo solo les doy el aire."
+          }
+        }
+      ],
+      "unlockDay": 30
+    },
+    {
+      "id": "cave",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "cueva",
+          "caverna",
+          "cavernas",
+          "luz dorada",
+          "subterraneo"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Los exploradores encontraron una cámara natural bajo el domo norte. Cuando entra el sol por las grietas, la roca se pone dorada."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Hay cuevas que se extienden kilómetros bajo la superficie. Dicen que pueden servir de refugio."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "La cueva tiene algo raro: el eco tarda de más en volver. Prefiero no pensar en eso."
+          }
+        }
+      ],
+      "unlockDay": 34
+    },
+    {
+      "id": "ruins",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "ruinas",
+          "arcos",
+          "construccion",
+          "antigua",
+          "ancestral",
+          "civilizacion",
+          "portal",
+          "simbolos"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Descubrimos restos de una construcción anterior a la colonia. Arcos enormes. Nadie sabe quién los levantó."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Hay símbolos tallados en la roca. Las geólogas dicen que no son naturales. Yo no opino: arreglo válvulas."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Cuando alguien se acerca al portal, los símbolos brillan. Seguridad cerró la zona hace unos días."
+          }
+        }
+      ],
+      "unlockDay": 58
+    },
+    {
+      "id": "earth_missing",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "tierra",
+          "extranas",
+          "familia",
+          "casa",
+          "mama",
+          "papa",
+          "viejo",
+          "hermanos",
+          "amigos",
+          "rosario"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Extraño mil cosas: el olor a pasto, la lluvia, el ruido de la calle. Hasta el colectivo lleno."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "La Tierra es un puntito azul en el cielo de la noche. A veces lo busco sin darme cuenta."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Mi familia cree que estoy trabajando lejos. En cierto sentido, es verdad."
+          }
+        }
+      ]
+    },
+    {
+      "id": "earth_news",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "noticias",
+          "que pasa en la tierra",
+          "novedades",
+          "mundo",
+          "guerra",
+          "politica",
+          "futbol de la tierra"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Acá las noticias llegan filtradas y con demora. Casi siempre me entero tarde de todo."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Prefiero no saber demasiado. Si las noticias son buenas, me alegran; si son malas, no puedo hacer nada."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Lo único que sigo de cerca es Newell's. Dicen que hubo buenos resultados."
+          }
+        }
+      ]
+    },
+    {
+      "id": "signal_delay",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "demora",
+          "delay",
+          "retraso",
+          "senal",
+          "comunicacion",
+          "tarda",
+          "cuanto tarda"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Las señales de la Tierra tardan entre 4 y 24 minutos, según dónde estemos en la órbita. Hablar por radio es un arte."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "A veces mando un mensaje y espero la respuesta con un mate. O con una paciencia imaginaria."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Con vos hablo casi en tiempo real. Es lo más parecido a una charla de verdad que tengo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "work_life_support",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "trabajo",
+          "trabajas",
+          "ingeniero",
+          "soporte vital",
+          "que haces en marte",
+          "tu laburo",
+          "laburo",
+          "oficio"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "focused",
+          "text": {
+            "es": "Soy ingeniero de soporte vital. Mantengo el aire respirable, el agua limpia y la temperatura estable. Si hago bien mi trabajo, nadie se acuerda de mí."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Un buen día es un día sin alarmas. Mi trabajo es que todo siga igual de aburrido."
+          }
+        },
+        {
+          "mood": "focused",
+          "text": {
+            "es": "Reviso filtros, válvulas, sensores. No es glamoroso, pero sin eso no hay colonia."
+          }
+        }
+      ]
+    },
+    {
+      "id": "work_oxygen_water",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "oxigeno",
+          "aire",
+          "agua",
+          "presion",
+          "co2",
+          "filtros",
+          "reciclaje",
+          "humedad"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "focused",
+          "text": {
+            "es": "El oxígeno sale de electrólisis de agua y del invernadero. Todo se recicla: el aire, el agua, hasta el sudor."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "El agua que tomás hoy ya fue agua de ayer, y de anteayer. Mejor no pensarlo mucho."
+          }
+        },
+        {
+          "mood": "focused",
+          "text": {
+            "es": "Cuando sube el CO2 en un sector, lo sé antes de que suene la alarma. Es como tener un sexto sentido."
+          }
+        }
+      ]
+    },
+    {
+      "id": "work_alarms",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "alarma",
+          "alarmas",
+          "emergencia",
+          "peligro",
+          "falla",
+          "accidente",
+          "riesgo",
+          "tormenta de polvo"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Las alarmas suenan seguido, casi siempre por nada. Pero cada una la tomo como si fuera real."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "La peor noche fue una tormenta de polvo que cubrió los paneles. Pasamos tres días a oscuras."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Acá un error chico se vuelve grande rápido. Por eso reviso todo dos veces."
+          }
+        }
+      ]
+    },
+    {
+      "id": "work_shift",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "turno",
+          "guardia",
+          "horario",
+          "descansas",
+          "cuantas horas",
+          "dormis",
+          "dormir"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Hago turnos largos. El día marciano dura 24 horas y 39 minutos. Mi cuerpo todavía discute esos minutos."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Duermo en una cápsula chica con una ventana al cañón. Cuando no puedo dormir, la miro."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Mi turno de noche empieza cuando todos se van a dormir. Me gusta el silencio."
+          }
+        }
+      ]
+    },
+    {
+      "id": "coworkers",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "companeros",
+          "compañeros",
+          "equipo",
+          "colegas",
+          "gente",
+          "con quien vivis",
+          "amigos en marte",
+          "conoces a alguien"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Somos pocos y nos conocemos todos. Hay una botánica, un piloto de rovers, una médica y la comandante. Cada uno con su historia."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Con los compañeros nos llevamos bien. Cuando dos personas conviven en un espacio chico, se vuelven familia o se pelean."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "En las cenas hablamos del trabajo y de la Tierra. Nunca de lo que realmente pensamos."
+          }
+        }
+      ]
+    },
+    {
+      "id": "commander",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "comandante",
+          "jefa",
+          "jefe",
+          "director",
+          "directora",
+          "quien manda",
+          "quien lidera"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "La comandante de Aries Prime es seria y justa. Decide rápido y no repite órdenes."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "La comandante sabe más de lo que cuenta. Pero eso lo pienso yo, nomás."
+          }
+        }
+      ]
+    },
+    {
+      "id": "loneliness",
+      "type": "topic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "solo",
+          "soledad",
+          "aburrido",
+          "aburris",
+          "triste",
+          "angustia",
+          "miedo",
+          "ansiedad"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Sí, hay días de soledad. Pero hay más días de trabajo. Eso ayuda."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Me ayuda hablar. Por eso me alegra que escribas."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "A veces miro el reloj y pienso en cuánto falta. Mejor no contar días, aunque la app los cuente por mí."
+          }
+        }
+      ]
+    },
+    {
+      "id": "free_time",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "hobbies",
+          "tiempo libre",
+          "musica",
+          "que haces para divertirte",
+          "pelicula",
+          "libros",
+          "juegos",
+          "entretenimiento",
+          "deporte"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Escucho música vieja, leo en la tablet y a veces miro partidos viejos de Newell's. Cuando hay cena comunitaria, juego a las cartas."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Hay una sala común con un tablero de ajedrez y un viejo mate compartido. Es el punto de reunión."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "En el gimnasio de la colonia hay una cinta. Corro mirando una foto del Paraná."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sky_view",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "cielo",
+          "estrellas",
+          "ver la tierra",
+          "amanecer",
+          "atardecer",
+          "fobos",
+          "deimos",
+          "lunas",
+          "noche en marte"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "El cielo de Marte es lo que más me gusta. Atardeceres azules, cielos color óxido y dos lunas chicas que no se parecen en nada a la nuestra."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "De noche las estrellas se ven como nunca. Sin contaminación, sin nubes. Por eso me quedo a mirar."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Los atardeceres son azules, al revés que en la Tierra. Me lo recuerdo seguido: estoy en otro planeta."
+          }
+        }
+      ]
+    }
+  ]
+}
