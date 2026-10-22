@@ -998,19 +998,65 @@
         {
           "mood": "worried",
           "text": {
-            "es": "Cuando termine el contrato, vuelvo. Cómo, y a qué día, es parte de lo que no puedo contar."
+            "es": "Me dijeron que cuando termine vuelvo a casa, y que será como si todo hubiera sido un sueño. Todavía no sé si eso es una promesa o una amenaza."
           }
         },
         {
           "mood": "calm",
           "text": {
-            "es": "Si todo sale bien, voy a volver a casa como si nada hubiera pasado. Esa frase me da más miedo que Marte."
+            "es": "Cuando termine el contrato, vuelvo. Cómo, y a qué momento, es parte de lo que no puedo contar."
           }
         },
         {
           "mood": "tired",
           "text": {
             "es": "Extraño la Tierra todos los días. Pero hay un trato y los tratos se cumplen."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Me dijeron que iba a estar bien. Lo dijeron muchas veces, como quien repite algo para convencerse."
+          }
+        }
+      ]
+    },
+    {
+      "id": "last_memory",
+      "type": "basic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "ultimo recuerdo",
+          "reloj",
+          "hotel",
+          "antes de venir",
+          "sedante",
+          "te durmieron",
+          "que recordas",
+          "que te acordas",
+          "como fue el viaje",
+          "cuando te dormiste",
+          "droga"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Lo último que recuerdo es un reloj marcando las 23:45 y una voz que no paraba de hablar. Después, nada."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Fue en una habitación de hotel. Me fui quedando dormido mientras me explicaban todo. Del resto no me acuerdo bien."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Me acuerdo del número del reloj. De lo demás, solo del tono de la voz: tranquilo, muy tranquilo. Demasiado."
           }
         }
       ]
