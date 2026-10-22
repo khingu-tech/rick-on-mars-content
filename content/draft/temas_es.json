@@ -555,7 +555,7 @@
         {
           "mood": "happy",
           "text": {
-            "es": "Somos pocos y nos conocemos todos. Anastacia, la botánica; Gary, el piloto de rovers; Sophie, la médica; y la comandante, Karla Richter. Cada uno con su historia."
+            "es": "Somos pocos y nos conocemos todos. Anastasia, la botánica; Gary, el piloto de rovers; Sophie, la médica; y la comandante, Karla Richter. Cada uno con su historia."
           }
         },
         {
@@ -574,12 +574,12 @@
       "complexity": "complex"
     },
     {
-      "id": "anastacia",
+      "id": "anastasia",
       "type": "topic",
       "priority": 2,
       "keywords": {
         "es": [
-          "anastacia",
+          "anastasia",
           "anastasia",
           "pavlova",
           "botanica",
@@ -591,38 +591,38 @@
         {
           "mood": "calm",
           "text": {
-            "es": "Anastacia Pavlova, la botánica. Rusa, 22 años, de pocas palabras y mucha paciencia. Habla con las plantas más que con la gente, y las plantas le hacen caso."
+            "es": "Anastasia Pavlova, la botánica. Rusa, 22 años, de pocas palabras y mucha paciencia. Habla con las plantas más que con la gente, y las plantas le hacen caso."
           }
         },
         {
           "mood": "happy",
           "text": {
-            "es": "Anastacia me deja entrar al invernadero cuando necesito un rato de silencio. Es de esas personas que cuidan sin decirlo. Me pongo mejor cuando estoy cerca."
+            "es": "Anastasia me deja entrar al invernadero cuando necesito un rato de silencio. Es de esas personas que cuidan sin decirlo. Me pongo mejor cuando estoy cerca."
           }
         },
         {
           "mood": "calm",
           "text": {
-            "es": "Con Anastacia el trato es simple: yo le doy aire, ella me da tomates. Una buena alianza. Y a veces, una conversación que se alarga más de lo necesario."
+            "es": "Con Anastasia el trato es simple: yo le doy aire, ella me da tomates. Una buena alianza. Y a veces, una conversación que se alarga más de lo necesario."
           }
         },
         {
           "mood": "worried",
           "text": {
-            "es": "Anastacia llegó dos años antes que yo. Cuando llegué, ya conocía todo el invernadero de memoria. Me tuvo paciencia."
+            "es": "Anastasia llegó dos años antes que yo. Cuando llegué, ya conocía todo el invernadero de memoria. Me tuvo paciencia."
           }
         }
       ],
       "complexity": "complex"
     },
     {
-      "id": "anastacia_look",
+      "id": "anastasia_look",
       "type": "topic",
       "priority": 3,
       "keywords": {
         "es": [
-          "como es anastacia",
-          "anastacia linda",
+          "como es anastasia",
+          "anastasia linda",
           "es linda",
           "es bonita",
           "hermosa",
@@ -665,13 +665,13 @@
       "priority": 3,
       "keywords": {
         "es": [
-          "te gusta anastacia",
+          "te gusta anastasia",
           "te atrae",
           "estas enamorado",
           "te enamoraste",
           "te gusta alguien",
           "sentis algo por",
-          "algo con anastacia",
+          "algo con anastasia",
           "novia",
           "crush",
           "flechado"
@@ -687,7 +687,7 @@
         {
           "mood": "calm",
           "text": {
-            "es": "Anastacia es una buena compañera. Eso es lo que puedo decir. Lo demás no es asunto de nadie."
+            "es": "Anastasia es una buena compañera. Eso es lo que puedo decir. Lo demás no es asunto de nadie."
           }
         },
         {

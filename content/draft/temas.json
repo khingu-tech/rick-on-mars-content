@@ -943,9 +943,9 @@
         {
           "mood": "happy",
           "text": {
-            "es": "Somos pocos y nos conocemos todos. Anastacia, la botánica; Gary, el piloto de rovers; Sophie, la médica; y la comandante, Karla Richter. Cada uno con su historia.",
-            "en": "We're few and we all know each other. Anastacia, the botanist; Gary, the rover pilot; Sophie, the doctor; and the commander, Karla Richter. Each one with their own story.",
-            "pt-BR": "Somos poucos e todos nos conhecemos. Anastacia, a botânica; Gary, o piloto de rovers; Sophie, a médica; e a comandante, Karla Richter. Cada um com sua história."
+            "es": "Somos pocos y nos conocemos todos. Anastasia, la botánica; Gary, el piloto de rovers; Sophie, la médica; y la comandante, Karla Richter. Cada uno con su historia.",
+            "en": "We're few and we all know each other. Anastasia, the botanist; Gary, the rover pilot; Sophie, the doctor; and the commander, Karla Richter. Each one with their own story.",
+            "pt-BR": "Somos poucos e todos nos conhecemos. Anastasia, a botânica; Gary, o piloto de rovers; Sophie, a médica; e a comandante, Karla Richter. Cada um com sua história."
           }
         },
         {
@@ -968,79 +968,79 @@
       "complexity": "complex"
     },
     {
-      "id": "anastacia",
+      "id": "anastasia",
       "type": "topic",
       "priority": 2,
       "keywords": {
         "es": [
-          "anastacia",
           "anastasia",
           "pavlova",
           "botanica",
           "rusa",
-          "la rusa"
+          "la rusa",
+          "anastacia"
         ],
         "en": [
-          "anastacia",
           "anastasia",
           "pavlova",
           "botanist",
           "russian",
-          "the russian"
+          "the russian",
+          "anastacia"
         ],
         "pt-BR": [
-          "anastacia",
           "anastasia",
           "pavlova",
           "botanica",
           "russa",
-          "a russa"
+          "a russa",
+          "anastacia"
         ]
       },
       "answers": [
         {
           "mood": "calm",
           "text": {
-            "es": "Anastacia Pavlova, la botánica. Rusa, 22 años, de pocas palabras y mucha paciencia. Habla con las plantas más que con la gente, y las plantas le hacen caso.",
-            "en": "Anastacia Pavlova, the botanist. Russian, 22 years old, of few words and a lot of patience. She talks to the plants more than to people, and the plants listen to her.",
-            "pt-BR": "Anastacia Pavlova, a botânica. Russa, 22 anos, de poucas palavras e muita paciência. Fala com as plantas mais que com as pessoas, e as plantas lhe dão ouvidos."
+            "es": "Anastasia Pavlova, la botánica. Rusa, 22 años, de pocas palabras y mucha paciencia. Habla con las plantas más que con la gente, y las plantas le hacen caso.",
+            "en": "Anastasia Pavlova, the botanist. Russian, 22 years old, of few words and a lot of patience. She talks to the plants more than to people, and the plants listen to her.",
+            "pt-BR": "Anastasia Pavlova, a botânica. Russa, 22 anos, de poucas palavras e muita paciência. Fala com as plantas mais que com as pessoas, e as plantas lhe dão ouvidos."
           }
         },
         {
           "mood": "happy",
           "text": {
-            "es": "Anastacia me deja entrar al invernadero cuando necesito un rato de silencio. Es de esas personas que cuidan sin decirlo. Me pongo mejor cuando estoy cerca.",
-            "en": "Anastacia lets me into the greenhouse when I need a bit of silence. She's one of those people who care without saying it. I feel better when I'm near her.",
-            "pt-BR": "Anastacia me deixa entrar na estufa quando preciso de um tempo de silêncio. É dessas pessoas que cuidam sem dizer. Eu fico melhor quando estou perto."
+            "es": "Anastasia me deja entrar al invernadero cuando necesito un rato de silencio. Es de esas personas que cuidan sin decirlo. Me pongo mejor cuando estoy cerca.",
+            "en": "Anastasia lets me into the greenhouse when I need a bit of silence. She's one of those people who care without saying it. I feel better when I'm near her.",
+            "pt-BR": "Anastasia me deixa entrar na estufa quando preciso de um tempo de silêncio. É dessas pessoas que cuidam sem dizer. Eu fico melhor quando estou perto."
           }
         },
         {
           "mood": "calm",
           "text": {
-            "es": "Con Anastacia el trato es simple: yo le doy aire, ella me da tomates. Una buena alianza. Y a veces, una conversación que se alarga más de lo necesario.",
-            "en": "With Anastacia the deal is simple: I give her air, she gives me tomatoes. A good alliance. And sometimes, a conversation that runs longer than necessary.",
-            "pt-BR": "Com a Anastacia o trato é simples: eu dou o ar, ela me dá tomates. Uma boa aliança. E às vezes, uma conversa que se alonga mais que o necessário."
+            "es": "Con Anastasia el trato es simple: yo le doy aire, ella me da tomates. Una buena alianza. Y a veces, una conversación que se alarga más de lo necesario.",
+            "en": "With Anastasia the deal is simple: I give her air, she gives me tomatoes. A good alliance. And sometimes, a conversation that runs longer than necessary.",
+            "pt-BR": "Com a Anastasia o trato é simples: eu dou o ar, ela me dá tomates. Uma boa aliança. E às vezes, uma conversa que se alonga mais que o necessário."
           }
         },
         {
           "mood": "worried",
           "text": {
-            "es": "Anastacia llegó dos años antes que yo. Cuando llegué, ya conocía todo el invernadero de memoria. Me tuvo paciencia.",
-            "en": "Anastacia arrived two years before me. When I arrived, she already knew the whole greenhouse by heart. She was patient with me.",
-            "pt-BR": "Anastacia chegou dois anos antes que eu. Quando cheguei, ela já conhecia toda a estufa de memória. Teve paciência comigo."
+            "es": "Anastasia llegó dos años antes que yo. Cuando llegué, ya conocía todo el invernadero de memoria. Me tuvo paciencia.",
+            "en": "Anastasia arrived two years before me. When I arrived, she already knew the whole greenhouse by heart. She was patient with me.",
+            "pt-BR": "Anastasia chegou dois anos antes que eu. Quando cheguei, ela já conhecia toda a estufa de memória. Teve paciência comigo."
           }
         }
       ],
       "complexity": "complex"
     },
     {
-      "id": "anastacia_look",
+      "id": "anastasia_look",
       "type": "topic",
       "priority": 3,
       "keywords": {
         "es": [
-          "como es anastacia",
-          "anastacia linda",
+          "como es anastasia",
+          "anastasia linda",
           "es linda",
           "es bonita",
           "hermosa",
@@ -1052,11 +1052,12 @@
           "fisico",
           "ojos celestes",
           "aro",
-          "piercing"
+          "piercing",
+          "anastacia"
         ],
         "en": [
-          "what does anastacia look like",
-          "is anastacia pretty",
+          "what does anastasia look like",
+          "is anastasia pretty",
           "is she pretty",
           "beautiful",
           "her hair",
@@ -1066,11 +1067,12 @@
           "how does she look",
           "appearance",
           "blue eyes",
-          "piercing"
+          "piercing",
+          "anastacia"
         ],
         "pt-BR": [
-          "como e a anastacia",
-          "anastacia e bonita",
+          "como e a anastasia",
+          "anastasia e bonita",
           "ela e bonita",
           "linda",
           "cabelo dela",
@@ -1080,7 +1082,8 @@
           "como ela e",
           "aparencia",
           "olhos azuis",
-          "piercing"
+          "piercing",
+          "anastacia"
         ]
       },
       "answers": [
@@ -1117,38 +1120,38 @@
       "priority": 3,
       "keywords": {
         "es": [
-          "te gusta anastacia",
+          "te gusta anastasia",
           "te atrae",
           "estas enamorado",
           "te enamoraste",
           "te gusta alguien",
           "sentis algo por",
-          "algo con anastacia",
+          "algo con anastasia",
           "novia",
           "crush",
           "flechado"
         ],
         "en": [
-          "do you like anastacia",
+          "do you like anastasia",
           "are you attracted to her",
           "are you in love",
           "did you fall in love",
           "do you like someone",
           "do you feel something for",
-          "something with anastacia",
+          "something with anastasia",
           "girlfriend",
           "crush",
           "smitten",
           "love interest"
         ],
         "pt-BR": [
-          "voce gosta da anastacia",
+          "voce gosta da anastasia",
           "voce se sente atraido",
           "esta apaixonado",
           "se apaixonou",
           "gosta de alguem",
           "sente algo por",
-          "algo com a anastacia",
+          "algo com a anastasia",
           "namorada",
           "crush",
           "paixonite"
@@ -1166,9 +1169,9 @@
         {
           "mood": "calm",
           "text": {
-            "es": "Anastacia es una buena compañera. Eso es lo que puedo decir. Lo demás no es asunto de nadie.",
-            "en": "Anastacia is a good coworker. That's what I can say. The rest is nobody's business.",
-            "pt-BR": "Anastacia é uma boa companheira. Isso é o que posso dizer. O resto não é assunto de ninguém."
+            "es": "Anastasia es una buena compañera. Eso es lo que puedo decir. Lo demás no es asunto de nadie.",
+            "en": "Anastasia is a good coworker. That's what I can say. The rest is nobody's business.",
+            "pt-BR": "Anastasia é uma boa companheira. Isso é o que posso dizer. O resto não é assunto de ninguém."
           }
         },
         {
