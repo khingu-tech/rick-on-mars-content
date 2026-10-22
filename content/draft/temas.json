@@ -1051,6 +1051,10 @@
           "como se ve",
           "fisico",
           "ojos celestes",
+          "ojos verdes",
+          "ojos grises",
+          "ojos",
+          "antebrazo",
           "aro",
           "piercing",
           "anastacia"
@@ -1067,6 +1071,10 @@
           "how does she look",
           "appearance",
           "blue eyes",
+          "green eyes",
+          "gray eyes",
+          "eyes",
+          "forearm",
           "piercing",
           "anastacia"
         ],
@@ -1082,6 +1090,10 @@
           "como ela e",
           "aparencia",
           "olhos azuis",
+          "olhos verdes",
+          "olhos cinzas",
+          "olhos",
+          "antebraco",
           "piercing",
           "anastacia"
         ]
@@ -1090,17 +1102,17 @@
         {
           "mood": "calm",
           "text": {
-            "es": "Rubia, con el pelo largo hasta la cintura. Tiene un mechón rosa en el flequillo y ojos celestes, tan claros que parecen cielo de la Tierra.",
-            "en": "Blonde, with hair down to her waist. She has a pink streak in her bangs and light blue eyes, so clear they look like Earth's sky.",
-            "pt-BR": "Loira, com o cabelo comprido até a cintura. Tem uma mecha rosa na franja e olhos azul-claros, tão claros que parecem céu da Terra."
+            "es": "Rubia, con el pelo largo hasta la cintura. Tiene un mechón rosa en el flequillo y ojos claros, entre verdes y grises, con una mirada que dice más de lo que ella habla.",
+            "en": "Blonde, with hair down to her waist. She has a pink streak in her bangs and light eyes, somewhere between green and gray, with a look that says more than she talks.",
+            "pt-BR": "Loira, com o cabelo comprido até a cintura. Tem uma mecha rosa na franja e olhos claros, entre verdes e cinzas, com um olhar que diz mais do que ela fala."
           }
         },
         {
           "mood": "happy",
           "text": {
-            "es": "Pecas sutiles, un aro en la ceja y otro en la nariz. Y un tatuaje chiquito en el cuello con la fecha en que llegó a Marte, en letra Times New Roman. Es un detalle que me quedó grabado.",
-            "en": "Subtle freckles, a ring in her eyebrow and another in her nose. And a small tattoo on her neck with the date she arrived on Mars, in Times New Roman. It's a detail that stuck with me.",
-            "pt-BR": "Sardas sutis, um piercing na sobrancelha e outro no nariz. E uma tatuagem pequena no pescoço com a data em que chegou a Marte, em letra Times New Roman. É um detalhe que me ficou gravado."
+            "es": "Pecas sutiles, un aro en la ceja y otro en la nariz. Y un tatuaje chiquito, en letra manuscrita, en la parte interna del antebrazo derecho: la fecha en que llegó a Marte. Es un detalle que me quedó grabado.",
+            "en": "Subtle freckles, a ring in her eyebrow and another in her nose. And a small handwritten-style tattoo on the inside of her right forearm: the date she arrived on Mars. It's a detail that stuck with me.",
+            "pt-BR": "Sardas sutis, um piercing na sobrancelha e outro no nariz. E uma tatuagem pequena, em letra manuscrita, na parte de dentro do antebraço direito: a data em que chegou a Marte. É um detalhe que me ficou gravado."
           }
         },
         {

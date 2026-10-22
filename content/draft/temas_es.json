@@ -633,6 +633,10 @@
           "como se ve",
           "fisico",
           "ojos celestes",
+          "ojos verdes",
+          "ojos grises",
+          "ojos",
+          "antebrazo",
           "aro",
           "piercing"
         ]
@@ -641,13 +645,13 @@
         {
           "mood": "calm",
           "text": {
-            "es": "Rubia, con el pelo largo hasta la cintura. Tiene un mechón rosa en el flequillo y ojos celestes, tan claros que parecen cielo de la Tierra."
+            "es": "Rubia, con el pelo largo hasta la cintura. Tiene un mechón rosa en el flequillo y ojos claros, entre verdes y grises, con una mirada que dice más de lo que ella habla."
           }
         },
         {
           "mood": "happy",
           "text": {
-            "es": "Pecas sutiles, un aro en la ceja y otro en la nariz. Y un tatuaje chiquito en el cuello con la fecha en que llegó a Marte, en letra Times New Roman. Es un detalle que me quedó grabado."
+            "es": "Pecas sutiles, un aro en la ceja y otro en la nariz. Y un tatuaje chiquito, en letra manuscrita, en la parte interna del antebrazo derecho: la fecha en que llegó a Marte. Es un detalle que me quedó grabado."
           }
         },
         {
