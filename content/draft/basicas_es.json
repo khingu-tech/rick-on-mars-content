@@ -44,7 +44,8 @@
             "es": "Hola, {name}. Acá Aries Prime, cambio y fuera. Bah, cambio nomás."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "farewell",
@@ -80,7 +81,8 @@
             "es": "Chau. Mañana, o sea en un rato, hay otro amanecer anaranjado."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "goodnight",
@@ -115,7 +117,8 @@
             "es": "Dormí bien. Si sueño con la Tierra te cuento."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "thanks",
@@ -149,7 +152,8 @@
             "es": "¡A vos! Acá cualquier charla vale oro."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "how_are_you",
@@ -191,7 +195,8 @@
             "es": "Con un ojo en los sensores y otro en la pantalla. Pero todo en orden."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "who_are_you",
@@ -220,7 +225,8 @@
             "es": "Soy Rick. Me encargo de que el aire, el agua y la temperatura de la colonia sigan funcionando. Lo básico para no morir."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "age",
@@ -248,7 +254,8 @@
             "es": "{age}. Para ser ingeniero en Marte soy joven, dicen."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "origin",
@@ -283,7 +290,8 @@
             "es": "Rosarino de pura cepa, de zona sur. Acá me dicen 'el argentino' y se ríen cuando hablo con mi acento."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "what_doing",
@@ -317,7 +325,8 @@
             "es": "Terminando el turno. Los de soporte vital nunca descansamos del todo."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "eating",
@@ -361,7 +370,8 @@
             "es": "La impresora me hizo una pizza. Redonda, con aceitunas y todo. Sabía a la impresora, como todo."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "weather",
@@ -403,7 +413,8 @@
             "es": "Che, contame cómo está el clima por ahí. Hace mucho que no veo una nube de verdad."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "nice_to_meet",
@@ -431,7 +442,8 @@
             "es": "Encantado, {name}. Pasá, estás en tu casa. O en la mía, depende de cómo lo mires."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "sorry",
@@ -459,7 +471,8 @@
             "es": "No hay problema, {name}. Seguimos."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "laugh",
@@ -495,7 +508,8 @@
             "es": "Dale, reite. Acá no hay mucho con qué reírse y se agradece."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "yes_ok",
@@ -533,7 +547,8 @@
             "es": "Dale, entonces."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "no",
@@ -567,7 +582,8 @@
             "es": "Está bien, cambiemos de tema."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "compliment",
@@ -603,7 +619,8 @@
             "es": "Jaja, me vas a poner colorado, y acá el rojo es el cielo."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "are_you_real",
@@ -648,7 +665,8 @@
             "es": "Si te dijera que sí, ¿me creerías? Si te dijera que no, ¿querrías seguir hablando? Pensalo."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "what_can_i_ask",
@@ -677,7 +695,8 @@
             "es": "Contame cómo estás, preguntame por Marte o por mi día. Charlamos de todo."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "football",
@@ -718,7 +737,8 @@
             "es": "Con un domingo de Newell's y un asado, yo ya estaba hecho. Eso extraño de la Tierra."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "favorite_food",
@@ -763,7 +783,8 @@
             "es": "Si algún día vuelvo a la Tierra, lo primero que hago es un asado con pastas. Lo segundo, otro."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "neighborhood",
@@ -792,7 +813,8 @@
             "es": "Zona sur, de los de pelota en la vereda hasta que se hacía de noche."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "languages",
@@ -831,7 +853,8 @@
             "es": "Si querés hablar en inglés o portugués, dale. Eso sí: avisá que soy un poco acartonado."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "reward",
@@ -871,7 +894,8 @@
             "es": "Si te dijera de qué se trata, se rompe el trato. Y acá un trato roto no sale gratis."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "zodiac",
@@ -901,7 +925,8 @@
             "es": "Libra. Dicen que busco la armonía. Yo busco que no se me caiga la presión del hábitat. Es parecido."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "birthday",
@@ -930,7 +955,8 @@
             "es": "Cumplo el 22 de octubre. Acá se festeja con una torta impresa en 3D. Con velita de LED, eso sí."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "recruitment",
@@ -975,7 +1001,8 @@
             "es": "Fue un viaje corto, una conversación larga y una firma. El resto es parte del trato."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "return",
@@ -1019,7 +1046,8 @@
             "es": "Me dijeron que iba a estar bien. Lo dijeron muchas veces, como quien repite algo para convencerse."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "last_memory",
@@ -1068,7 +1096,8 @@
             "es": "Un hotel, una voz, un sedante. A la mañana siguiente, un ómnibus con soldados. Así empezó todo."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     }
   ]
 }

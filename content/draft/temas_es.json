@@ -38,7 +38,8 @@
             "es": "Somos unas pocas decenas de personas. Todos nos conocemos, aunque no todos nos caemos bien."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "domes_tunnels",
@@ -76,7 +77,8 @@
             "es": "Dentro de los domos hay luz casi natural. Es lo más parecido a estar en la Tierra."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "airlock_suit",
@@ -112,7 +114,8 @@
             "es": "Afuera no hay margen de error. Por eso soy obsesivo con los chequeos."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "rovers",
@@ -149,7 +152,8 @@
             "es": "Salgo poco con los rovers. Mi trabajo es que adentro no falte nada."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "greenhouse",
@@ -187,7 +191,8 @@
           }
         }
       ],
-      "unlockDay": 30
+      "unlockDay": 30,
+      "complexity": "complex"
     },
     {
       "id": "cave",
@@ -222,7 +227,8 @@
           }
         }
       ],
-      "unlockDay": 34
+      "unlockDay": 34,
+      "complexity": "complex"
     },
     {
       "id": "ruins",
@@ -260,7 +266,8 @@
           }
         }
       ],
-      "unlockDay": 58
+      "unlockDay": 58,
+      "complexity": "complex"
     },
     {
       "id": "earth_missing",
@@ -299,7 +306,8 @@
             "es": "Mi familia cree que estoy trabajando lejos. En cierto sentido, es verdad."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "earth_news",
@@ -335,7 +343,8 @@
             "es": "Lo único que sigo de cerca es Newell's. Dicen que hubo buenos resultados."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "signal_delay",
@@ -368,10 +377,11 @@
         {
           "mood": "calm",
           "text": {
-            "es": "Con vos hablo casi en tiempo real. Es lo más parecido a una charla de verdad que tengo."
+            "es": "Lo simple te lo contesto al toque. Lo complicado me lleva un rato: tengo que pensarlo, y el enlace tarda en acomodarse."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "work_life_support",
@@ -408,7 +418,8 @@
             "es": "Reviso filtros, válvulas, sensores. No es glamoroso, pero sin eso no hay colonia."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "work_oxygen_water",
@@ -445,7 +456,8 @@
             "es": "Cuando sube el CO2 en un sector, lo sé antes de que suene la alarma. Es como tener un sexto sentido."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "work_alarms",
@@ -482,7 +494,8 @@
             "es": "Acá un error chico se vuelve grande rápido. Por eso reviso todo dos veces."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "work_shift",
@@ -518,7 +531,8 @@
             "es": "Mi turno de noche empieza cuando todos se van a dormir. Me gusta el silencio."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "coworkers",
@@ -533,20 +547,21 @@
           "gente",
           "con quien vivis",
           "amigos en marte",
-          "conoces a alguien"
+          "conoces a alguien",
+          "tripulacion"
         ]
       },
       "answers": [
         {
           "mood": "happy",
           "text": {
-            "es": "Somos pocos y nos conocemos todos. Hay una botánica, un piloto de rovers, una médica y la comandante. Cada uno con su historia."
+            "es": "Somos pocos y nos conocemos todos. Anastacia, la botánica; Gary, el piloto de rovers; Sophie, la médica; y la comandante, Karla Richter. Cada uno con su historia."
           }
         },
         {
           "mood": "calm",
           "text": {
-            "es": "Con los compañeros nos llevamos bien. Cuando dos personas conviven en un espacio chico, se vuelven familia o se pelean."
+            "es": "Entre los cuatro y yo armamos una especie de familia rara. Cuando dos personas conviven en un espacio chico, se vuelven familia o se pelean."
           }
         },
         {
@@ -555,19 +570,128 @@
             "es": "En las cenas hablamos del trabajo y de la Tierra. Nunca de lo que realmente pensamos."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
-      "id": "commander",
+      "id": "anastacia",
       "type": "topic",
       "priority": 2,
       "keywords": {
         "es": [
+          "anastacia",
+          "anastasia",
+          "pavlova",
+          "botanica",
+          "rusa",
+          "la rusa"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Anastacia Pavlova, la botánica. Rusa, de pocas palabras y mucha paciencia. Habla con las plantas más que con la gente, y las plantas le hacen caso."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Anastacia me deja entrar al invernadero cuando necesito un rato de silencio. Es de esas personas que cuidan sin decirlo."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Con Anastacia el trato es simple: yo le doy aire, ella me da tomates. Una buena alianza."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "gary",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "gary",
+          "piloto",
+          "piloto de rovers",
+          "australiano",
+          "aussie"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Gary maneja los rovers. Australiano, hablador, de los que te cuentan un chiste en medio de una tormenta de polvo."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Gary es el único que me discute de fútbol con argumentos. Dice que el fútbol australiano es mejor. No le creo."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Con Gary salgo a veces en el rover cuando necesita compañía en un recorrido largo. Maneja como si el cañón fuera suyo."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "sophie",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "sophie",
+          "turner",
+          "medica",
+          "doctora",
+          "norteamericana",
+          "salud"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Sophie Turner, la médica. Norteamericana, directa y más observadora de lo que parece. Siempre anota todo."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Sophie nos hace un chequeo cada tanto. Pregunta cómo dormimos, cómo soñamos. Dice que es protocolo."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "A Sophie le intereso más de lo que debería: le gusta saber qué recuerdo y qué no. Debe ser parte del protocolo médico."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "karla",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "karla",
+          "richter",
           "comandante",
           "jefa",
-          "jefe",
-          "director",
-          "directora",
+          "alemana",
+          "comandante richter",
           "quien manda",
           "quien lidera"
         ]
@@ -576,16 +700,63 @@
         {
           "mood": "calm",
           "text": {
-            "es": "La comandante de Aries Prime es seria y justa. Decide rápido y no repite órdenes."
+            "es": "Karla Richter, la comandante. Alemana, seria, justa. Decide rápido y no repite órdenes."
           }
         },
         {
           "mood": "worried",
           "text": {
-            "es": "La comandante sabe más de lo que cuenta. Pero eso lo pienso yo, nomás."
+            "es": "Karla sabe más de lo que cuenta. Pero eso lo pienso yo, nomás."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Con Karla hay respeto. No habla mucho de sí misma, y a nadie le parece mal."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "karla_gary_love",
+      "type": "topic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "karla y gary",
+          "amor",
+          "romance",
+          "pareja",
+          "enamorados",
+          "novio",
+          "novia",
+          "relacion",
+          "prohibido",
+          "algo entre"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "En una colonia chica hay cosas que todos saben y nadie dice. Esa es una."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "No es mi lugar hablar de eso. Digamos que hay silencios que dicen más que los chismes."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Prefiero no opinar de la vida de los demás. Acá, con tan poca gente, cualquier palabra pesa el doble."
+          }
+        }
+      ],
+      "complexity": "complex"
     },
     {
       "id": "loneliness",
@@ -622,7 +793,8 @@
             "es": "A veces miro el reloj y pienso en cuánto falta. Mejor no contar los días, aunque el contador esté ahí, a la vista."
           }
         }
-      ]
+      ],
+      "complexity": "complex"
     },
     {
       "id": "free_time",
@@ -660,7 +832,8 @@
             "es": "En el gimnasio de la colonia hay una cinta. Corro mirando una foto del Paraná."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     },
     {
       "id": "sky_view",
@@ -698,7 +871,8 @@
             "es": "Los atardeceres son azules, al revés que en la Tierra. Me lo recuerdo seguido: estoy en otro planeta."
           }
         }
-      ]
+      ],
+      "complexity": "simple"
     }
   ]
 }
