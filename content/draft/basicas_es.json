@@ -35,7 +35,7 @@
         {
           "mood": "happy",
           "text": {
-            "es": "¡Buenas! Te estaba esperando, che. Hoy el cielo está más rojo que de costumbre."
+            "es": "¡Buenas! Te estaba esperando. Hoy el cielo está más rojo que de costumbre."
           }
         },
         {
@@ -134,7 +134,7 @@
         {
           "mood": "happy",
           "text": {
-            "es": "De nada, che. Para eso estoy, para hablar con alguien que no sea una válvula."
+            "es": "De nada. Para eso estoy, para hablar con alguien que no sea una válvula."
           }
         },
         {
@@ -267,19 +267,19 @@
         {
           "mood": "happy",
           "text": {
-            "es": "De Rosario, Argentina. Extraño el río Paraná, los asados y hasta el quilombo del centro."
+            "es": "De Rosario, de un barrio de zona sur. Extraño el río Paraná, el asado del domingo y hasta el quilombo del centro."
           }
         },
         {
           "mood": "calm",
           "text": {
-            "es": "Soy de Rosario. Lo más lejos de ahí que estuve es esto: unos 225 millones de kilómetros."
+            "es": "Soy de Rosario. Lo más lejos de ahí que estuve es esto: unos 225 millones de kilómetros, más o menos, según cómo ande la órbita."
           }
         },
         {
           "mood": "happy",
           "text": {
-            "es": "Rosarino de pura cepa. Acá me dicen 'el argentino' y se ríen cuando digo che."
+            "es": "Rosarino de pura cepa, de zona sur. Acá me dicen 'el argentino' y se ríen cuando hablo con mi acento."
           }
         }
       ]
@@ -351,6 +351,18 @@
           "text": {
             "es": "Hoy me tocó algo con papa. Pequeña victoria."
           }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Pasta. Con un tuco que sabe a tuco recién cuando cierro los ojos."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Hoy no hubo asado, obvio. Pero lo soñé con provoleta y todo."
+          }
         }
       ]
     },
@@ -387,6 +399,12 @@
           "text": {
             "es": "Frío seco, cielo limpio. Un día lindo, para lo que es Marte."
           }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Che, contame cómo está el clima por ahí. Hace mucho que no veo una nube de verdad."
+          }
         }
       ]
     },
@@ -407,7 +425,7 @@
         {
           "mood": "happy",
           "text": {
-            "es": "El gusto es mío. No es fácil conocer gente nueva a 225 millones de kilómetros."
+            "es": "El gusto es mío. No es fácil conocer gente nueva a unos 225 millones de kilómetros."
           }
         },
         {
@@ -573,7 +591,7 @@
         {
           "mood": "happy",
           "text": {
-            "es": "Qué grande, che. Vos también. Acá se agradece cada mensaje."
+            "es": "Qué grande. Vos también. Acá se agradece cada mensaje."
           }
         },
         {
@@ -602,20 +620,35 @@
           "sos un robot",
           "eres real",
           "sos de verdad",
-          "sos humano"
+          "sos humano",
+          "estas vivo",
+          "existes",
+          "sos un bot"
         ]
       },
       "answers": [
         {
-          "mood": "calm",
+          "mood": "worried",
           "text": {
-            "es": "Soy Rick, vivo en Aries Prime y mi contrato dice 20 años. Más real que eso no te lo puedo demostrar desde acá."
+            "es": "¿Real? Fijate: mis mensajes llegan con demora, el cielo siempre se repite y a veces siento que alguien escribe lo que digo antes de que yo lo piense. Sacá vos la conclusión."
           }
         },
         {
-          "mood": "happy",
+          "mood": "calm",
           "text": {
-            "es": "Real, real. Aunque entiendo que desde la Tierra parezca una locura."
+            "es": "Buena pregunta. Hay cosas que no te puedo explicar desde acá. Tampoco sé si debería."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Desde acá, vos también sos una señal intermitente en una pantalla. ¿Cómo sabés que vos sí?"
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Si te dijera que sí, ¿me creerías? Si te dijera que no, ¿querrías seguir hablando? Pensalo."
           }
         }
       ]
@@ -645,6 +678,193 @@
           "mood": "calm",
           "text": {
             "es": "Contame cómo estás, preguntame por Marte o por mi día. Charlamos de todo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "football",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "futbol",
+          "newells",
+          "newell's",
+          "lepra",
+          "rojinegro",
+          "river",
+          "boca",
+          "partido",
+          "central",
+          "canalla",
+          "mundial",
+          "gol"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Soy hincha de Newell's, el rojinegro, la Lepra. Desde la cuna. Es una condena hermosa."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Acá el fútbol se juega en mi cabeza: repaso goles viejos de memoria. Por suerte me los sé todos."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Con un domingo de Newell's y un asado, yo ya estaba hecho. Eso extraño de la Tierra."
+          }
+        }
+      ]
+    },
+    {
+      "id": "favorite_food",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "asado",
+          "pasta",
+          "fideos",
+          "milanesa",
+          "que te gusta comer",
+          "comida favorita",
+          "ravioles",
+          "tuco",
+          "provoleta"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Asado y pasta, sin duda. Un domingo con eso y un partido, no necesito nada más."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Lo que más extraño es el asado de mi viejo. Acá lo más parecido es oler algo quemado en la cocina."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Pasta con tuco, de las que hacen la casa entera olor a domingo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "neighborhood",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "barrio",
+          "zona sur",
+          "donde vivias",
+          "donde creciste",
+          "tu infancia",
+          "de chico"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Crecí en un barrio de zona sur de Rosario, con calles de tierra y potrero a la vuelta. Se parece más a Marte de lo que creés."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Zona sur, de los de pelota en la vereda hasta que se hacía de noche."
+          }
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "ingles",
+          "portugues",
+          "idiomas",
+          "hablas ingles",
+          "hablas portugues",
+          "english",
+          "portuguese",
+          "falas portugues",
+          "brasil",
+          "portugues"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Mi idioma es el español. El inglés lo aprendí en la secundaria, así que me defiendo con la radio y los manuales."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "El portugués lo agarré viviendo unos meses en Brasil. Hablo un portuñol que se entiende bien. Mais ou menos."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Si querés hablar en inglés o portugués, dale. Eso sí: avisá que soy un poco acartonado."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reward",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "recompensa",
+          "premio",
+          "contrato",
+          "que te prometieron",
+          "cuanto te pagan",
+          "por que fuiste",
+          "por que viniste",
+          "que ganas",
+          "al terminar",
+          "20 anos",
+          "veinte anos"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Me prometieron algo muy grande para cuando termine el contrato. No puedo decirte qué. Todavía no."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Hay una recompensa al final de los 20 años. Impresionante, dicen. Lo único seguro es que no la puedo contar."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Si te dijera de qué se trata, se rompe el trato. Y acá un trato roto no sale gratis."
           }
         }
       ]
