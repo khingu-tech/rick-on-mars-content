@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "languages": ["es", "en", "pt-BR"],
+  "notes": "Ejemplo del formato. Todo texto visible es un objeto {es, en, pt-BR}. Marcadores: {day} = día de misión del usuario, {date} = fecha en Marte, {name} = nombre del usuario.",
+
+  "matching": {
+    "normalize": ["minúsculas", "sin tildes", "sin signos de puntuación"],
+    "scoring": "cada keyword encontrada suma su peso (default 1); las frases suman más (peso 2-3); gana la intención con más puntos",
+    "minScore": 2,
+    "tieBreak": "prioridad más alta, y luego la menos usada recientemente",
+    "avoidRepeat": "no repetir una variante hasta haber usado todas las de esa intención"
+  },
+
+  "intents": [
+    {
+      "id": "greeting",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": ["hola", "buenas", "buen dia", "buenas noches", "que tal", "ey"],
+        "en": ["hello", "hi", "hey", "good morning", "good evening"],
+        "pt-BR": ["oi", "ola", "bom dia", "boa noite", "e ai"]
+      },
+      "answers": [
+        { "mood": "happy", "text": {
+          "es": "¡Ey, {name}! Qué bueno leerte. Acá es de noche y el generador de oxígeno no para de ronronear.",
+          "en": "Hey, {name}! Good to hear from you. It's night here and the oxygen generator won't stop purring.",
+          "pt-BR": "Oi, {name}! Que bom te ler. Aqui é noite e o gerador de oxigênio não para de ronronar." } },
+        { "mood": "calm", "text": {
+          "es": "Hola. Justo terminaba la ronda de mantenimiento. ¿Cómo andás?",
+          "en": "Hi. I was just finishing my maintenance round. How are you?",
+          "pt-BR": "Oi. Eu estava terminando a ronda de manutenção. Como você está?" } }
+      ]
+    },
+    {
+      "id": "how_are_you",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": ["como estas", "como andas", "como te va", "todo bien", "que tal estas"],
+        "en": ["how are you", "how's it going", "you ok", "how are things"],
+        "pt-BR": ["como voce esta", "como vai", "tudo bem", "como anda"]
+      },
+      "answers": [
+        { "mood": "tired", "text": {
+          "es": "Cansado pero bien. Día {day} y todavía me sorprende el cielo color óxido.",
+          "en": "Tired but fine. Day {day} and the rust-colored sky still surprises me.",
+          "pt-BR": "Cansado, mas bem. Dia {day} e o céu cor de ferrugem ainda me surpreende." } },
+        { "mood": "calm", "text": {
+          "es": "Tranqui. Hoy no hubo alarmas, que en Marte ya es una buena noticia.",
+          "en": "Calm. No alarms today, which on Mars is already good news.",
+          "pt-BR": "De boa. Hoje não teve alarmes, o que em Marte já é uma boa notícia." } }
+      ]
+    },
+    {
+      "id": "who_are_you",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": ["quien sos", "como te llamas", "tu nombre", "quien eres"],
+        "en": ["who are you", "your name", "what's your name"],
+        "pt-BR": ["quem e voce", "como se chama", "seu nome"]
+      },
+      "answers": [
+        { "mood": "calm", "text": {
+          "es": "Rick Morales, 25 años, ingeniero de soporte vital. Soy de Rosario y vivo en Aries Prime.",
+          "en": "Rick Morales, 25, life-support engineer. I'm from Rosario and I live in Aries Prime.",
+          "pt-BR": "Rick Morales, 25 anos, engenheiro de suporte à vida. Sou de Rosário e moro em Aries Prime." } }
+      ]
+    },
+    {
+      "id": "date_today",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": ["fecha", "que dia es", "en que dia", "que año"],
+        "en": ["date", "what day", "what year"],
+        "pt-BR": ["data", "que dia", "que ano"]
+      },
+      "answers": [
+        { "mood": "calm", "text": {
+          "es": "Hoy es {date} acá en Marte. Es el día {day} de mi contrato de 20 años.",
+          "en": "Today is {date} here on Mars. It's day {day} of my 20-year contract.",
+          "pt-BR": "Hoje é {date} aqui em Marte. É o dia {day} do meu contrato de 20 anos." } }
+      ]
+    },
+    {
+      "id": "colony_greenhouse",
+      "type": "topic",
+      "priority": 2,
+      "keywords": {
+        "es": ["invernadero", "plantas", "comida", "cultivo", "huerta"],
+        "en": ["greenhouse", "plants", "food", "crops", "garden"],
+        "pt-BR": ["estufa", "plantas", "comida", "cultivo", "horta"]
+      },
+      "unlockDay": 30,
+      "answers": [
+        { "mood": "happy", "eventId": "evt_greenhouse", "text": {
+          "es": "El invernadero es lo mejor de la colonia: tomates bajo un domo, con vista al cañón. Mirá.",
+          "en": "The greenhouse is the best thing in the colony: tomatoes under a dome, with a view of the canyon. Look.",
+          "pt-BR": "A estufa é a melhor coisa da colônia: tomates sob uma cúpula, com vista para o cânion. Olha." } }
+      ]
+    }
+  ],
+
+  "fallbacks": [
+    { "mood": "calm", "text": {
+      "es": "Mmm, eso no lo tengo claro desde acá. ¿Me lo preguntás de otra forma?",
+      "en": "Hmm, I'm not sure about that from here. Can you ask it another way?",
+      "pt-BR": "Hmm, isso eu não sei bem daqui. Pode perguntar de outro jeito?" } },
+    { "mood": "worried", "text": {
+      "es": "Se me cortó un poco la señal. Repetime, que no te escuché bien.",
+      "en": "The signal dropped a little. Say it again, I didn't catch that.",
+      "pt-BR": "O sinal falhou um pouco. Repete, não entendi direito." } }
+  ],
+
+  "events": [
+    {
+      "id": "evt_greenhouse",
+      "image": "events/greenhouse.jpg",
+      "ratio": "1:1",
+      "unlockDay": 30,
+      "caption": {
+        "es": "Invernadero · día 30",
+        "en": "Greenhouse · day 30",
+        "pt-BR": "Estufa · dia 30" }
+    },
+    {
+      "id": "evt_dust_storm",
+      "image": "events/dust_storm.jpg",
+      "ratio": "1:1",
+      "unlockDay": 12,
+      "keywords": {
+        "es": ["tormenta", "polvo", "viento"],
+        "en": ["storm", "dust", "wind"],
+        "pt-BR": ["tempestade", "poeira", "vento"] },
+      "caption": {
+        "es": "Tormenta de polvo · día 12",
+        "en": "Dust storm · day 12",
+        "pt-BR": "Tempestade de poeira · dia 12" }
+    }
+  ],
+
+  "reels": [
+    {
+      "id": "reel_colony_sunset",
+      "image": "reels/colony_sunset.jpg",
+      "ratio": "9:16",
+      "unlockDay": 1,
+      "tag": { "es": "COLONIA", "en": "COLONY", "pt-BR": "COLÔNIA" },
+      "title": { "es": "Aries Prime al atardecer", "en": "Aries Prime at sunset", "pt-BR": "Aries Prime ao pôr do sol" },
+      "description": {
+        "es": "Las torres ya iluminan el cañón. El turno de noche empieza en una hora.",
+        "en": "The towers already light up the canyon. The night shift starts in an hour.",
+        "pt-BR": "As torres já iluminam o cânion. O turno da noite começa em uma hora." }
+    },
+    {
+      "id": "reel_ancestral_arches",
+      "image": "reels/ancestral_arches.jpg",
+      "ratio": "9:16",
+      "unlockDay": 58,
+      "tag": { "es": "RUINAS", "en": "RUINS", "pt-BR": "RUÍNAS" },
+      "title": { "es": "Arcos ancestrales", "en": "Ancestral arches", "pt-BR": "Arcos ancestrais" },
+      "description": {
+        "es": "Restos de una construcción anterior a la colonia. Nadie sabe quién la levantó.",
+        "en": "Remains of a structure older than the colony. Nobody knows who built it.",
+        "pt-BR": "Restos de uma construção anterior à colônia. Ninguém sabe quem a levantou." }
+    },
+    {
+      "id": "reel_golden_cave",
+      "image": "reels/golden_cave.jpg",
+      "ratio": "9:16",
+      "unlockDay": 34,
+      "tag": { "es": "INTERIOR", "en": "INTERIOR", "pt-BR": "INTERIOR" },
+      "title": { "es": "Caverna de luz dorada", "en": "Golden light cavern", "pt-BR": "Caverna de luz dourada" },
+      "description": {
+        "es": "Los exploradores encontraron una cámara natural bajo el domo norte.",
+        "en": "Explorers found a natural chamber under the north dome.",
+        "pt-BR": "Os exploradores encontraram uma câmara natural sob a cúpula norte." }
+    }
+  ]
+}
