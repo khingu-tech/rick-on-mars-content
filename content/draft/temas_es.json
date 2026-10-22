@@ -741,6 +741,46 @@
       "complexity": "complex"
     },
     {
+      "id": "gary_look",
+      "type": "topic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "como es gary",
+          "gary fisico",
+          "gary barba",
+          "cicatriz",
+          "musculoso",
+          "orejas",
+          "coliflor",
+          "gary lucha",
+          "gary peleador",
+          "que aspecto tiene gary"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Gary es alto y flaco pero con músculo de gimnasio serio. Barba espesa, cabeza rapada o pelo cortísimo, y una cicatriz en el labio de arriba."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Tiene las orejas medio aplastadas, de esas que dejan los deportes de contacto. Nunca me quiso contar de dónde las sacó."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Cuando se saca la camiseta para reparar el rover, parece sacado de un póster de gimnasio. Él se hace el que no se da cuenta."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
       "id": "sophie",
       "type": "topic",
       "priority": 2,
