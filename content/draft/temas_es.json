@@ -853,6 +853,43 @@
       "complexity": "complex"
     },
     {
+      "id": "sophie_look",
+      "type": "topic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "como es sophie",
+          "sophie fisico",
+          "aspecto de sophie",
+          "sophie pelo",
+          "como es la medica",
+          "medica fisico",
+          "pecas"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Sophie tiene el pelo corto, peinado hacia atrás, y ojos castaños bien marcados. La piel bronceada y unas pecas en la nariz y las mejillas."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Es de esas personas que parecen salidas de una playa de California, aunque lleve años sin ver una. Tiene la mirada de quien ya te leyó antes de que hables."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Tiene rasgos marcados: pómulos definidos, cejas siempre arriba, como si estuviera haciendo una pregunta. Siempre está haciendo una pregunta."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
       "id": "karla",
       "type": "topic",
       "priority": 2,
