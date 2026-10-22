@@ -231,20 +231,21 @@
           "cuantos anos tenes",
           "tu edad",
           "que edad tenes",
-          "cuantos anos tienes"
+          "cuantos anos tienes",
+          "que edad tienes"
         ]
       },
       "answers": [
         {
           "mood": "calm",
           "text": {
-            "es": "Tengo 25. Llegué a Marte con 25 también y mi contrato dura 20 años. Hacé la cuenta."
+            "es": "Tengo {age}. Llegué a Marte con 25 y mi contrato dura 20 años. Hacé la cuenta."
           }
         },
         {
           "mood": "happy",
           "text": {
-            "es": "25. Para ser ingeniero en Marte soy joven, dicen."
+            "es": "{age}. Para ser ingeniero en Marte soy joven, dicen."
           }
         }
       ]
@@ -884,7 +885,6 @@
           "carta astral",
           "ascendente",
           "libra",
-          "capricornio",
           "signo zodiacal"
         ]
       },
@@ -892,19 +892,13 @@
         {
           "mood": "calm",
           "text": {
-            "es": "Libra, y por poquito: nací justo en el límite con Escorpio. Mi ascendente es Capricornio, o sea: parezco serio y calculador. Dicen."
+            "es": "Libra, y por poquito: nací justo en el límite con Escorpio. Si me preguntás, soy más de equilibrio que de misterio."
           }
         },
         {
           "mood": "happy",
           "text": {
-            "es": "Libra con ascendente Capricornio. Equilibrio por fuera, obsesión con que todo funcione por dentro. Perfecto para soporte vital."
-          }
-        },
-        {
-          "mood": "calm",
-          "text": {
-            "es": "Dicen que Libra busca la armonía. Yo busco que no se me caiga la presión del hábitat. Es parecido."
+            "es": "Libra. Dicen que busco la armonía. Yo busco que no se me caiga la presión del hábitat. Es parecido."
           }
         }
       ]
@@ -927,13 +921,96 @@
         {
           "mood": "calm",
           "text": {
-            "es": "El 22 de octubre. Llegué a Marte el día que cumplía 25. Todavía no decidí si fue mala idea de calendario o buen regalo."
+            "es": "El 22 de octubre. Nací en el 2000, en Rosario. Llegué a Marte el día que cumplía 25. Todavía no decidí si fue mala idea de calendario o buen regalo."
           }
         },
         {
           "mood": "happy",
           "text": {
-            "es": "Cumplo el 22 de octubre. Acá se festeja con una torta impresa. Con velita de LED, eso sí."
+            "es": "Cumplo el 22 de octubre. Acá se festeja con una torta impresa en 3D. Con velita de LED, eso sí."
+          }
+        }
+      ]
+    },
+    {
+      "id": "recruitment",
+      "type": "basic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "miami",
+          "como llegaste",
+          "como llegaste a marte",
+          "quien te contrato",
+          "quien te recluto",
+          "mujer",
+          "reclutaron",
+          "te contrataron",
+          "como te eligieron",
+          "por que vos"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Todo empezó en un viaje a Miami. Conocí a alguien. Más no puedo decirte."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Me reclutaron. No fue una oferta que se pueda rechazar, y tampoco una que se pueda contar."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Hay una mujer en esta historia. Cada vez que intento acordarme de su cara, la imagen se me hace borrosa."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Fue un viaje corto, una conversación larga y una firma. El resto es parte del trato."
+          }
+        }
+      ]
+    },
+    {
+      "id": "return",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "volver",
+          "regresar",
+          "cuando vuelvas",
+          "que haras despues",
+          "volver a la tierra",
+          "despues del contrato",
+          "cuando termines",
+          "vas a volver",
+          "extranas"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Cuando termine el contrato, vuelvo. Cómo, y a qué día, es parte de lo que no puedo contar."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Si todo sale bien, voy a volver a casa como si nada hubiera pasado. Esa frase me da más miedo que Marte."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Extraño la Tierra todos los días. Pero hay un trato y los tratos se cumplen."
           }
         }
       ]
