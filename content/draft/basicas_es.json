@@ -1098,6 +1098,54 @@
         }
       ],
       "complexity": "complex"
+    },
+    {
+      "id": "rick_look",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "como sos fisicamente",
+          "como sos",
+          "que aspecto tenes",
+          "como te ves",
+          "sos lindo",
+          "tenes tatuajes",
+          "tatuajes",
+          "como eres",
+          "hoyuelos",
+          "barba",
+          "mandame una foto",
+          "foto"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Flaco, alto, de brazos largos. Sonrío bastante y se me hacen hoyuelos, que según me dicen es lo mejor que tengo."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Tengo varios tatuajes: golondrinas en el pecho, una polilla grande en el torso, y un montón de dibujitos chicos en los brazos. Algunos son fechas. Cada uno tiene su historia."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Hoy me levanté con barba de unos días. Acá nadie la nota, pero yo sí."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Si me vieras ahora, me verías con ojeras. El turno largo se nota."
+          }
+        }
+      ],
+      "complexity": "simple"
     }
   ]
 }
