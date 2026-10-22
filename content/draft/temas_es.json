@@ -781,6 +781,42 @@
       "complexity": "complex"
     },
     {
+      "id": "karla_look",
+      "type": "topic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "como es karla",
+          "karla fisico",
+          "aspecto de karla",
+          "karla pelo",
+          "como es la comandante",
+          "comandante fisico"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Karla es alta, delgada, con porte de atleta. Pelo largo con flequillo, ojos claros entre pardos y avellana, y una postura que no se dobla ni en una tormenta."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Tiene rasgos finos, la nariz recta y los pómulos marcados. Cuando te mira, sabés que está evaluando todo."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Entrena todas las mañanas en el gimnasio de la colonia. Se nota en la espalda recta y en cómo se mueve: precisa, sin gestos de más."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
       "id": "sophie",
       "type": "topic",
       "priority": 2,
