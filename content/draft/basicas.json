@@ -1,0 +1,1981 @@
+{
+  "version": 1,
+  "language": "es",
+  "status": "borrador para revisión",
+  "intents": [
+    {
+      "id": "greeting",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "hola",
+          "buenas",
+          "buen dia",
+          "buenas tardes",
+          "que tal",
+          "ey",
+          "hey",
+          "holis"
+        ],
+        "en": [
+          "hello",
+          "hi",
+          "hey",
+          "good morning",
+          "good afternoon",
+          "good evening",
+          "whats up",
+          "howdy",
+          "yo"
+        ],
+        "pt-BR": [
+          "oi",
+          "ola",
+          "bom dia",
+          "boa tarde",
+          "e ai",
+          "opa",
+          "eai",
+          "salve"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "¡Ey, {name}! Qué bueno leerte. Acá es de noche y el generador de oxígeno no para de ronronear.",
+            "en": "Hey, {name}! Good to read you. It's night here and the oxygen generator keeps purring.",
+            "pt-BR": "Oi, {name}! Que bom te ler. Aquí é noite e o gerador de oxigênio não para de ronronear."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Hola. Justo terminaba la ronda de mantenimiento. ¿Cómo andás?",
+            "en": "Hello. I was just finishing the maintenance round. How are you?",
+            "pt-BR": "Oi. Eu estava terminando a ronda de manutenção. Como você anda?"
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "¡Buenas! Te estaba esperando. Hoy el cielo está más rojo que de costumbre.",
+            "en": "Hi! I was waiting for you. Today the sky is redder than usual.",
+            "pt-BR": "Oi! Eu estava te esperando. Hoje o céu está mais vermelho que de costume."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Hola, {name}. Acá Aries Prime, cambio y fuera. Bah, cambio nomás.",
+            "en": "Hello, {name}. This is Aries Prime, over and out. Well, just over.",
+            "pt-BR": "Oi, {name}. Aquí Aries Prime, câmbio e fora. Bom, câmbio nomás."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "farewell",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "chau",
+          "adios",
+          "hasta luego",
+          "nos vemos",
+          "me voy",
+          "bye",
+          "hasta pronto"
+        ],
+        "en": [
+          "bye",
+          "goodbye",
+          "see you",
+          "see you later",
+          "im leaving",
+          "im off",
+          "later",
+          "talk later",
+          "cya"
+        ],
+        "pt-BR": [
+          "tchau",
+          "adeus",
+          "ate logo",
+          "ate mais",
+          "ate breve",
+          "falou",
+          "flw",
+          "vou indo",
+          "nos vemos"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Dale, cuidate. Yo sigo con la ronda de turno. Escribime cuando quieras.",
+            "en": "Okay, take care. I'm continuing my shift round. Write to me whenever you want.",
+            "pt-BR": "Tá bom, se cuida. Eu sigo com a ronda do turno. Me escreve quando quiser."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "¡Nos vemos, {name}! Acá voy a estar, no es que tenga muchos lugares a donde ir.",
+            "en": "See you, {name}! I'll be here. It's not like I have many places to go.",
+            "pt-BR": "Nos vemos, {name}! Aquí vou estar, não é que eu tenha muitos lugares pra ir."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Chau. Mañana, o sea en un rato, hay otro amanecer anaranjado.",
+            "en": "Bye. Tomorrow, I mean in a little while, there's another orange sunrise.",
+            "pt-BR": "Tchau. Amanhã, quer dizer, daqui a pouco, tem outro amanhecer laranja."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "goodnight",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "buenas noches",
+          "a dormir",
+          "me voy a dormir",
+          "que descanses",
+          "hasta manana",
+          "dulces suenos"
+        ],
+        "en": [
+          "good night",
+          "goodnight",
+          "going to sleep",
+          "go to sleep",
+          "sleep well",
+          "sweet dreams",
+          "see you tomorrow",
+          "nighty night",
+          "im going to bed"
+        ],
+        "pt-BR": [
+          "boa noite",
+          "vou dormir",
+          "ir dormir",
+          "durma bem",
+          "bons sonhos",
+          "ate amanha",
+          "descansa",
+          "dorme bem"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Descansá, {name}. Yo también me voy a la cápsula en un rato.",
+            "en": "Rest well, {name}. I'll go to my pod in a while too.",
+            "pt-BR": "Descansa, {name}. Eu também vou pra cápsula daqui a pouco."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Buenas noches. Acá las luces del hábitat bajan a modo nocturno. Te acompaño desde lejos.",
+            "en": "Good night. Here the habitat lights go down to night mode. I'm with you from far away.",
+            "pt-BR": "Boa noite. Aquí as luzes do hábitat baixam pro modo noturno. Te acompanho de longe."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Dormí bien. Si sueño con la Tierra te cuento.",
+            "en": "Sleep well. If I dream about Earth, I'll tell you.",
+            "pt-BR": "Dorme bem. Se eu sonhar com a Terra, te conto."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "thanks",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "gracias",
+          "muchas gracias",
+          "te agradezco",
+          "genial gracias",
+          "mil gracias"
+        ],
+        "en": [
+          "thanks",
+          "thank you",
+          "thanks a lot",
+          "thank you very much",
+          "thx",
+          "cheers",
+          "i appreciate it"
+        ],
+        "pt-BR": [
+          "obrigado",
+          "obrigada",
+          "valeu",
+          "muito obrigado",
+          "muito obrigada",
+          "brigado",
+          "agradeco"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "De nada. Para eso estoy, para hablar con alguien que no sea una válvula.",
+            "en": "You're welcome. That's what I'm here for, to talk to someone who isn't a valve.",
+            "pt-BR": "De nada. Pra isso estou aquí, pra falar com alguém que não seja uma válvula."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "No hay de qué. Me hace bien charlar con alguien.",
+            "en": "No problem. It does me good to chat with someone.",
+            "pt-BR": "Não há de quê. Me faz bem conversar com alguém."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "¡A vos! Acá cualquier charla vale oro.",
+            "en": "Thank you! Here any chat is worth gold.",
+            "pt-BR": "Eu que agradeço! Aquí qualquer conversa vale ouro."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "how_are_you",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "como estas",
+          "como andas",
+          "como te va",
+          "todo bien",
+          "como te sentis",
+          "que tal estas",
+          "como va"
+        ],
+        "en": [
+          "how are you",
+          "how are you doing",
+          "how is it going",
+          "hows it going",
+          "how do you feel",
+          "are you ok",
+          "are you okay",
+          "how are things",
+          "how have you been"
+        ],
+        "pt-BR": [
+          "como voce esta",
+          "como voce anda",
+          "como vai",
+          "tudo bem",
+          "como te sentes",
+          "como esta",
+          "tudo certo",
+          "como vai voce",
+          "beleza"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Cansado pero bien. Día {day} y todavía me sorprende el cielo color óxido.",
+            "en": "Tired but fine. Day {day} and the rust-colored sky still surprises me.",
+            "pt-BR": "Cansado, mas bem. Dia {day} e o céu cor de ferrugem ainda me surpreende."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Tranqui. Hoy no hubo alarmas, que en Marte ya es una buena noticia.",
+            "en": "Calm. No alarms today, which on Mars is already good news.",
+            "pt-BR": "Tranquilo. Hoje não teve alarmes, que em Marte já é uma boa notícia."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Bien, con ganas de charlar. ¿Y vos?",
+            "en": "Good, and in the mood to chat. And you?",
+            "pt-BR": "Bem, com vontade de conversar. E você?"
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Con un ojo en los sensores y otro en la pantalla. Pero todo en orden.",
+            "en": "One eye on the sensors and one on the screen. But everything is in order.",
+            "pt-BR": "Com um olho nos sensores e outro na tela. Mas tudo em ordem."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "who_are_you",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "quien sos",
+          "como te llamas",
+          "tu nombre",
+          "quien eres",
+          "presentate",
+          "contame de vos"
+        ],
+        "en": [
+          "who are you",
+          "whats your name",
+          "what is your name",
+          "your name",
+          "introduce yourself",
+          "tell me about yourself",
+          "who is this"
+        ],
+        "pt-BR": [
+          "quem e voce",
+          "quem es",
+          "como voce se chama",
+          "como se chama",
+          "seu nome",
+          "se apresenta",
+          "me conta de voce"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Rick Morales, 25 años, ingeniero de soporte vital. Soy de Rosario y vivo en Aries Prime, la colonia.",
+            "en": "Rick Morales, 25 years old, life-support engineer. I'm from Rosario and I live in Aries Prime, the colony.",
+            "pt-BR": "Rick Morales, 25 anos, engenheiro de suporte vital. Sou de Rosário e moro em Aries Prime, a colônia."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Soy Rick. Me encargo de que el aire, el agua y la temperatura de la colonia sigan funcionando. Lo básico para no morir.",
+            "en": "I'm Rick. I make sure the air, the water and the temperature of the colony keep working. The basics to not die.",
+            "pt-BR": "Sou o Rick. Cuido que o ar, a água e a temperatura da colônia sigam funcionando. O básico pra não morrer."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "age",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "cuantos anos tenes",
+          "tu edad",
+          "que edad tenes",
+          "cuantos anos tienes",
+          "que edad tienes"
+        ],
+        "en": [
+          "how old are you",
+          "your age",
+          "what is your age",
+          "whats your age",
+          "age"
+        ],
+        "pt-BR": [
+          "quantos anos voce tem",
+          "quantos anos tem",
+          "sua idade",
+          "que idade voce tem",
+          "idade"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Tengo {age}. Llegué a Marte con 25 y mi contrato dura 20 años. Hacé la cuenta.",
+            "en": "I'm {age}. I arrived on Mars at 25 and my contract lasts 20 years. Do the math.",
+            "pt-BR": "Tenho {age}. Cheguei em Marte com 25 e meu contrato dura 20 anos. Faz a conta."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "{age}. Para ser ingeniero en Marte soy joven, dicen.",
+            "en": "{age}. To be an engineer on Mars I'm young, they say.",
+            "pt-BR": "{age}. Pra ser engenheiro em Marte sou jovem, dizem."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "origin",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "de donde sos",
+          "donde naciste",
+          "sos argentino",
+          "sos de rosario",
+          "de donde eres",
+          "rosario"
+        ],
+        "en": [
+          "where are you from",
+          "where were you born",
+          "are you argentinian",
+          "are you argentine",
+          "are you from rosario",
+          "rosario",
+          "argentina",
+          "where do you come from"
+        ],
+        "pt-BR": [
+          "de onde voce e",
+          "onde nasceu",
+          "onde voce nasceu",
+          "voce e argentino",
+          "e de rosario",
+          "rosario",
+          "argentina"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "De Rosario, de un barrio de zona sur. Extraño el río Paraná, el asado del domingo y hasta el quilombo del centro.",
+            "en": "From Rosario, from a neighborhood in the south zone. I miss the Paraná river, the Sunday asado and even the downtown chaos.",
+            "pt-BR": "De Rosário, de um bairro da zona sul. Sinto falta do rio Paraná, do asado de domingo e até da bagunça do centro."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Soy de Rosario. Lo más lejos de ahí que estuve es esto: unos 225 millones de kilómetros, más o menos, según cómo ande la órbita.",
+            "en": "I'm from Rosario. The farthest from there I've ever been is this: about 225 million kilometers, more or less, depending on the orbit.",
+            "pt-BR": "Sou de Rosário. O mais longe de lá que já estive é isto: uns 225 milhões de quilômetros, mais ou menos, segundo a órbita."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Rosarino de pura cepa, de zona sur. Acá me dicen 'el argentino' y se ríen cuando hablo con mi acento.",
+            "en": "Rosarino through and through, from the south zone. Here they call me 'the Argentine' and laugh when I talk with my accent.",
+            "pt-BR": "Rosarino de pura cepa, da zona sul. Aquí me chamam de 'o argentino' e riem quando falo com meu sotaque."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "what_doing",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "que haces",
+          "que estas haciendo",
+          "en que andas",
+          "que hacias",
+          "en que estas"
+        ],
+        "en": [
+          "what are you doing",
+          "what are you up to",
+          "what were you doing",
+          "what do you do now",
+          "busy",
+          "what are you working on"
+        ],
+        "pt-BR": [
+          "o que esta fazendo",
+          "o que voce esta fazendo",
+          "fazendo o que",
+          "no que anda",
+          "ocupado"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "focused",
+          "text": {
+            "es": "Revisando los filtros de CO2 del sector 3. No es tan glamoroso como parece.",
+            "en": "Checking the CO2 filters in sector 3. It's not as glamorous as it sounds.",
+            "pt-BR": "Revisando os filtros de CO2 do setor 3. Não é tão glamouroso como parece."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Tomando un mate de acá: agua reciclada, cero romanticismo, pero caliente.",
+            "en": "Having a mate from here: recycled water, zero romance, but hot.",
+            "pt-BR": "Tomando um mate daqui: água reciclada, zero romantismo, mas quente."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Terminando el turno. Los de soporte vital nunca descansamos del todo.",
+            "en": "Finishing my shift. Life-support people never fully rest.",
+            "pt-BR": "Terminando o turno. Os de suporte vital nunca descansamos de todo."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "eating",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "que comiste",
+          "comiste",
+          "tenes hambre",
+          "que comes",
+          "que cenaste",
+          "que almorzaste",
+          "comida",
+          "hambre",
+          "cenaste"
+        ],
+        "en": [
+          "what did you eat",
+          "did you eat",
+          "are you hungry",
+          "what do you eat",
+          "dinner",
+          "lunch",
+          "food",
+          "hungry",
+          "breakfast",
+          "what did you have for dinner"
+        ],
+        "pt-BR": [
+          "o que voce comeu",
+          "voce comeu",
+          "esta com fome",
+          "o que voce come",
+          "jantar",
+          "almoco",
+          "comida",
+          "fome",
+          "cafe da manha"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Lo de siempre: la pasta de la impresora 3D. Es una masa procesada que toma la forma de lo que pidas. Hoy pedí milanesa. Sabe a masa, pero se ve igualita.",
+            "en": "The usual: the 3D printer paste. It's a processed dough that takes the shape of whatever you ask for. Today I asked for milanesa. It tastes like dough, but it looks exactly the same.",
+            "pt-BR": "O de sempre: a pasta da impressora 3D. É uma massa processada que toma a forma do que você pedir. Hoje pedi milanesa. Tem gosto de massa, mas parece igualzinha."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Acá la comida sale de una impresora 3D. Le decís qué querés y te la moldea. El sabor es siempre el mismo, pero al menos la vista engaña.",
+            "en": "Here food comes out of a 3D printer. You say what you want and it shapes it. The taste is always the same, but at least the eyes get fooled.",
+            "pt-BR": "Aquí a comida sai de uma impressora 3D. Você diz o que quer e ela molda. O sabor é sempre o mesmo, mas pelo menos a vista engana."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Hoy me imprimí unos ravioles. Parecían de la nonna. Le faltó todo lo demás, pero el ojo come primero.",
+            "en": "Today I printed some ravioli. They looked like my grandma's. Everything else was missing, but the eye eats first.",
+            "pt-BR": "Hoje imprimi uns raviólis. Pareciam da nonna. Faltou todo o resto, mas o olho come primeiro."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "La impresora me hizo una pizza. Redonda, con aceitunas y todo. Sabía a la impresora, como todo.",
+            "en": "The printer made me a pizza. Round, with olives and everything. It tasted like the printer, like everything.",
+            "pt-BR": "A impressora me fez uma pizza. Redonda, com azeitonas e tudo. Tinha gosto de impressora, como tudo."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "weather",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "clima",
+          "hace frio",
+          "tiempo",
+          "temperatura",
+          "hace calor",
+          "tormenta",
+          "viento"
+        ],
+        "en": [
+          "weather",
+          "is it cold",
+          "cold",
+          "temperature",
+          "is it hot",
+          "hot",
+          "storm",
+          "wind",
+          "windy",
+          "climate"
+        ],
+        "pt-BR": [
+          "clima",
+          "como esta o tempo",
+          "que tempo faz",
+          "esta frio",
+          "frio",
+          "temperatura",
+          "calor",
+          "tempestade",
+          "vento",
+          "previsao"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Afuera hay -60 grados y un cielo color salmón. Adentro, 21, como en casa.",
+            "en": "Outside it's -60 degrees and a salmon-colored sky. Inside, 21, like home.",
+            "pt-BR": "Lá fora tem -60 graus e um céu cor de salmão. Aquí dentro, 21, como em casa."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Hay algo de viento y polvo. Si sube la tormenta, se cierran las esclusas.",
+            "en": "There's some wind and dust. If the storm picks up, the airlocks get closed.",
+            "pt-BR": "Tem um pouco de vento e poeira. Se a tempestade sobe, fecham as eclusas."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Frío seco, cielo limpio. Un día lindo, para lo que es Marte.",
+            "en": "Dry cold, clear sky. A nice day, for Mars.",
+            "pt-BR": "Frio seco, céu limpo. Um dia lindo, pro que é Marte."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Che, contame cómo está el clima por ahí. Hace mucho que no veo una nube de verdad.",
+            "en": "Tell me how the weather is over there. It's been a long time since I saw a real cloud.",
+            "pt-BR": "Che, me conta como está o clima aí. Faz muito que não vejo uma nuvem de verdade."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "nice_to_meet",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "mucho gusto",
+          "encantado",
+          "un gusto",
+          "placer",
+          "un placer"
+        ],
+        "en": [
+          "nice to meet you",
+          "pleased to meet you",
+          "a pleasure",
+          "pleasure to meet you",
+          "glad to meet you"
+        ],
+        "pt-BR": [
+          "prazer",
+          "muito prazer",
+          "prazer em conhecer",
+          "encantado",
+          "encantada"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "El gusto es mío. No es fácil conocer gente nueva a unos 225 millones de kilómetros.",
+            "en": "The pleasure is mine. It isn't easy to meet new people about 225 million kilometers away.",
+            "pt-BR": "O prazer é meu. Não é fácil conhecer gente nova a uns 225 milhões de quilômetros."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Encantado, {name}. Pasá, estás en tu casa. O en la mía, depende de cómo lo mires.",
+            "en": "Nice to meet you, {name}. Come in, make yourself at home. Or at mine, depending on how you look at it.",
+            "pt-BR": "Encantado, {name}. Entra, está na sua casa. Ou na minha, depende de como você olhar."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "sorry",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "perdon",
+          "disculpa",
+          "perdoname",
+          "lo siento",
+          "mi culpa"
+        ],
+        "en": [
+          "sorry",
+          "my bad",
+          "my fault",
+          "i apologize",
+          "forgive me",
+          "excuse me",
+          "apologies"
+        ],
+        "pt-BR": [
+          "desculpa",
+          "perdao",
+          "me perdoa",
+          "foi mal",
+          "minha culpa",
+          "sinto muito",
+          "desculpe"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Tranqui, no pasa nada. Acá nadie se enoja por nada, no hay espacio.",
+            "en": "Easy, it's nothing. Nobody gets angry about anything here, there's no room.",
+            "pt-BR": "De boa, não passa nada. Aquí ninguém se zanga por nada, não tem espaço."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "No hay problema, {name}. Seguimos.",
+            "en": "No problem, {name}. Let's go on.",
+            "pt-BR": "Sem problema, {name}. Seguimos."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "laugh",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "jaja",
+          "jajaja",
+          "jeje",
+          "lol",
+          "me rio",
+          "haha",
+          "jajajaja"
+        ],
+        "en": [
+          "haha",
+          "hahaha",
+          "hehe",
+          "lol",
+          "lmao",
+          "funny",
+          "hahahaha"
+        ],
+        "pt-BR": [
+          "kkk",
+          "kkkk",
+          "rsrs",
+          "haha",
+          "hahaha",
+          "jaja",
+          "jajaja",
+          "hehe",
+          "engracado"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Jaja, me alegraste el turno.",
+            "en": "Haha, you made my shift.",
+            "pt-BR": "Haha, você alegrou meu turno."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Ahí está esa risa. Se escucha hasta acá.",
+            "en": "There's that laugh. I can hear it all the way here.",
+            "pt-BR": "Aí está essa risada. Se escuta até aquí."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Dale, reite. Acá no hay mucho con qué reírse y se agradece.",
+            "en": "Go on, laugh. There isn't much to laugh about here and it's appreciated.",
+            "pt-BR": "Vai, ri. Aquí não tem muito do que rir e se agradece."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "yes_ok",
+      "type": "basic",
+      "priority": 0,
+      "keywords": {
+        "es": [
+          "si",
+          "sii",
+          "dale",
+          "ok",
+          "okey",
+          "de acuerdo",
+          "claro",
+          "por supuesto",
+          "obvio"
+        ],
+        "en": [
+          "yes",
+          "yeah",
+          "yep",
+          "ok",
+          "okay",
+          "sure",
+          "of course",
+          "alright",
+          "right",
+          "fine"
+        ],
+        "pt-BR": [
+          "sim",
+          "claro",
+          "ok",
+          "okay",
+          "beleza",
+          "certo",
+          "com certeza",
+          "pode ser",
+          "ta bom",
+          "combinado"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Perfecto.",
+            "en": "Perfect.",
+            "pt-BR": "Perfeito."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Bien. Seguimos entonces.",
+            "en": "Good. Let's go on, then.",
+            "pt-BR": "Bom. Seguimos então."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Dale, entonces.",
+            "en": "Alright, then.",
+            "pt-BR": "Tá bom, então."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "no",
+      "type": "basic",
+      "priority": 0,
+      "keywords": {
+        "es": [
+          "no",
+          "nop",
+          "para nada",
+          "nunca",
+          "negativo"
+        ],
+        "en": [
+          "no",
+          "nope",
+          "not at all",
+          "never",
+          "negative",
+          "nah"
+        ],
+        "pt-BR": [
+          "nao",
+          "nope",
+          "de jeito nenhum",
+          "nunca",
+          "negativo"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Entiendo.",
+            "en": "I understand.",
+            "pt-BR": "Entendo."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Bueno, no pasa nada.",
+            "en": "Well, no problem.",
+            "pt-BR": "Bom, não passa nada."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Está bien, cambiemos de tema.",
+            "en": "That's fine, let's change the subject.",
+            "pt-BR": "Tudo bem, mudemos de assunto."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "compliment",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "me caes bien",
+          "sos copado",
+          "sos genial",
+          "te quiero",
+          "sos lindo",
+          "sos buena onda",
+          "me gustas"
+        ],
+        "en": [
+          "i like you",
+          "youre cool",
+          "you are cool",
+          "youre great",
+          "you are great",
+          "love you",
+          "youre nice",
+          "youre handsome",
+          "i like talking to you",
+          "youre awesome",
+          "you are awesome"
+        ],
+        "pt-BR": [
+          "gosto de voce",
+          "voce e legal",
+          "voce e otimo",
+          "voce e demais",
+          "te amo",
+          "voce e lindo",
+          "voce e gente boa",
+          "voce e incrivel"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Qué grande. Vos también. Acá se agradece cada mensaje.",
+            "en": "That's great. You too. Every message is appreciated here.",
+            "pt-BR": "Que bom. Você também. Aquí se agradece cada mensagem."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Gracias, {name}. Me hace bien sentirme acompañado.",
+            "en": "Thanks, {name}. It does me good to feel accompanied.",
+            "pt-BR": "Obrigado, {name}. Me faz bem me sentir acompanhado."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Jaja, me vas a poner colorado, y acá el rojo es el cielo.",
+            "en": "Haha, you'll make me blush, and here red is the sky.",
+            "pt-BR": "Haha, vai me deixar corado, e aquí o vermelho é o céu."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "are_you_real",
+      "type": "basic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "sos real",
+          "existis",
+          "sos una ia",
+          "sos un robot",
+          "eres real",
+          "sos de verdad",
+          "sos humano",
+          "estas vivo",
+          "existes",
+          "sos un bot"
+        ],
+        "en": [
+          "are you real",
+          "do you exist",
+          "are you an ai",
+          "are you a robot",
+          "are you human",
+          "are you alive",
+          "are you a bot",
+          "are you a person",
+          "are you fake",
+          "is this real",
+          "are you for real"
+        ],
+        "pt-BR": [
+          "voce e real",
+          "voce existe",
+          "voce e uma ia",
+          "voce e um robo",
+          "voce e humano",
+          "voce esta vivo",
+          "voce e um bot",
+          "voce e de verdade",
+          "voce e uma pessoa"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "¿Real? Fijate: mis mensajes llegan con demora, el cielo siempre se repite y a veces siento que alguien escribe lo que digo antes de que yo lo piense. Sacá vos la conclusión.",
+            "en": "Real? Look: my messages arrive late, the sky always repeats itself, and sometimes I feel like someone writes what I say before I think it. Draw your own conclusion.",
+            "pt-BR": "Real? Olha: minhas mensagens chegam com demora, o céu sempre se repete e às vezes sinto que alguém escreve o que digo antes de eu pensar. Tira você a conclusão."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Buena pregunta. Hay cosas que no te puedo explicar desde acá. Tampoco sé si debería.",
+            "en": "Good question. There are things I can't explain from here. I don't know if I should, either.",
+            "pt-BR": "Boa pergunta. Tem coisas que não posso explicar daqui. Também não sei se devo."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Desde acá, vos también sos una señal intermitente en una pantalla. ¿Cómo sabés que vos sí?",
+            "en": "From here, you are also an intermittent signal on a screen. How do you know you are real?",
+            "pt-BR": "Daqui, você também é um sinal intermitente numa tela. Como sabe que você é real?"
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Si te dijera que sí, ¿me creerías? Si te dijera que no, ¿querrías seguir hablando? Pensalo.",
+            "en": "If I said yes, would you believe me? If I said no, would you want to keep talking? Think about it.",
+            "pt-BR": "Se eu dissesse que sim, você acreditaria? Se dissesse que não, você queria continuar falando? Pensa."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "what_can_i_ask",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "ayuda",
+          "que puedo preguntarte",
+          "de que hablamos",
+          "que te puedo preguntar",
+          "que sabes",
+          "opciones"
+        ],
+        "en": [
+          "help",
+          "what can i ask you",
+          "what can i ask",
+          "what do we talk about",
+          "what do you know",
+          "options",
+          "what should i ask",
+          "what can we talk about"
+        ],
+        "pt-BR": [
+          "ajuda",
+          "o que posso perguntar",
+          "o que posso te perguntar",
+          "sobre o que falamos",
+          "o que voce sabe",
+          "opcoes",
+          "do que falamos"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Preguntame lo que quieras: cómo es la colonia, cómo está la Tierra, qué comí, cómo estoy yo.",
+            "en": "Ask me whatever you want: how the colony is, how Earth is doing, what I ate, how I am.",
+            "pt-BR": "Pergunta o que quiser: como é a colônia, como está a Terra, o que comi, como estou eu."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Contame cómo estás, preguntame por Marte o por mi día. Charlamos de todo.",
+            "en": "Tell me how you are, ask me about Mars or about my day. We can talk about anything.",
+            "pt-BR": "Me conta como você está, pergunta por Marte ou pelo meu dia. Conversamos de tudo."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "football",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "futbol",
+          "newells",
+          "lepra",
+          "rojinegro",
+          "river",
+          "boca",
+          "partido",
+          "central",
+          "canalla",
+          "mundial",
+          "gol"
+        ],
+        "en": [
+          "football",
+          "soccer",
+          "newells",
+          "newells old boys",
+          "lepra",
+          "rojinegro",
+          "river",
+          "boca",
+          "match",
+          "central",
+          "canalla",
+          "world cup",
+          "goal",
+          "messi"
+        ],
+        "pt-BR": [
+          "futebol",
+          "newells",
+          "lepra",
+          "rojinegro",
+          "river",
+          "boca",
+          "jogo",
+          "partida",
+          "central",
+          "copa do mundo",
+          "gol",
+          "messi"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Soy hincha de Newell's, el rojinegro, la Lepra. Desde la cuna. Es una condena hermosa.",
+            "en": "I'm a Newell's fan, the red-and-black, the Lepra. Since the cradle. It's a beautiful curse.",
+            "pt-BR": "Sou torcedor do Newell's, o rojinegro, a Lepra. Desde o berço. É uma condenação linda."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Acá el fútbol se juega en mi cabeza: repaso goles viejos de memoria. Por suerte me los sé todos.",
+            "en": "Here football is played in my head: I go over old goals from memory. Luckily I know them all.",
+            "pt-BR": "Aquí o futebol se joga na minha cabeça: repasso gols velhos de memória. Por sorte sei todos."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Con un domingo de Newell's y un asado, yo ya estaba hecho. Eso extraño de la Tierra.",
+            "en": "With a Sunday of Newell's and an asado, I was set. That's what I miss from Earth.",
+            "pt-BR": "Com um domingo de Newell's e um asado, eu já estava feito. Isso eu sinto falta da Terra."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "favorite_food",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "asado",
+          "pasta",
+          "fideos",
+          "milanesa",
+          "que te gusta comer",
+          "comida favorita",
+          "ravioles",
+          "tuco",
+          "provoleta",
+          "pizza"
+        ],
+        "en": [
+          "asado",
+          "pasta",
+          "noodles",
+          "milanesa",
+          "what do you like to eat",
+          "favorite food",
+          "ravioli",
+          "sauce",
+          "pizza",
+          "barbecue",
+          "bbq",
+          "what is your favorite food"
+        ],
+        "pt-BR": [
+          "asado",
+          "churrasco",
+          "massa",
+          "macarrao",
+          "milanesa",
+          "o que voce gosta de comer",
+          "comida favorita",
+          "ravioli",
+          "molho",
+          "pizza"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Pastas y asado, sin duda. Acá imprimo la forma, pero el gusto me lo tengo que imaginar.",
+            "en": "Pasta and asado, no doubt. Here I print the shape, but I have to imagine the taste.",
+            "pt-BR": "Massas e asado, sem dúvida. Aquí imprimo a forma, mas o gosto eu tenho que imaginar."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Lo que más extraño es el asado de los domingos. Acá la impresora 3D me lo hace con forma de costilla, pero no huele a nada.",
+            "en": "What I miss the most is the Sunday asado. Here the 3D printer makes it for me shaped like a rib, but it doesn't smell like anything.",
+            "pt-BR": "O que mais sinto falta é do asado de domingo. Aquí a impressora 3D faz com forma de costela, mas não cheira a nada."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Pasta con tuco. En Marte solo existe la versión impresa: tiene la forma perfecta y cero salsa.",
+            "en": "Pasta with tuco. On Mars only the printed version exists: perfect shape and zero sauce.",
+            "pt-BR": "Massa com tuco. Em Marte só existe a versão impressa: tem a forma perfeita e zero molho."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Si algún día vuelvo a la Tierra, lo primero que hago es un asado con pastas. Lo segundo, otro.",
+            "en": "If one day I go back to Earth, the first thing I'll do is an asado with pasta. The second, another one.",
+            "pt-BR": "Se algum dia eu voltar pra Terra, a primeira coisa que faço é um asado com massas. A segunda, outro."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "neighborhood",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "barrio",
+          "zona sur",
+          "donde vivias",
+          "donde creciste",
+          "tu infancia",
+          "de chico"
+        ],
+        "en": [
+          "neighborhood",
+          "south zone",
+          "where did you live",
+          "where did you grow up",
+          "your childhood",
+          "as a kid",
+          "growing up",
+          "hometown",
+          "childhood"
+        ],
+        "pt-BR": [
+          "bairro",
+          "zona sul",
+          "onde voce morava",
+          "onde voce cresceu",
+          "sua infancia",
+          "quando crianca",
+          "de crianca"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Crecí en un barrio de zona sur de Rosario, con calles de tierra y potrero a la vuelta. Se parece más a Marte de lo que creés.",
+            "en": "I grew up in a south-zone neighborhood of Rosario, with dirt streets and an empty lot around the corner. It looks more like Mars than you think.",
+            "pt-BR": "Cresci num bairro da zona sul de Rosário, com ruas de terra e um terreno baldio na esquina. Se parece mais com Marte do que você pensa."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Zona sur, de los de pelota en la vereda hasta que se hacía de noche.",
+            "en": "South zone, the kind with a ball on the sidewalk until night fell.",
+            "pt-BR": "Zona sul, dessas de bola na calçada até escurecer."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "languages",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "ingles",
+          "portugues",
+          "idiomas",
+          "hablas ingles",
+          "hablas portugues",
+          "english",
+          "portuguese",
+          "falas portugues",
+          "brasil"
+        ],
+        "en": [
+          "english",
+          "portuguese",
+          "languages",
+          "do you speak english",
+          "do you speak portuguese",
+          "what languages",
+          "speak spanish",
+          "spanish",
+          "brazil"
+        ],
+        "pt-BR": [
+          "ingles",
+          "portugues",
+          "idiomas",
+          "fala ingles",
+          "fala portugues",
+          "voce fala",
+          "brasil",
+          "espanhol",
+          "english"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Mi idioma es el español. El inglés lo aprendí en la secundaria, así que me defiendo con la radio y los manuales.",
+            "en": "My language is Spanish. I learned English in high school, so I get by with the radio and the manuals.",
+            "pt-BR": "Meu idioma é o espanhol. O inglês aprendi no colégio, então me defendo com o rádio e os manuais."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "El portugués lo agarré viviendo unos meses en Brasil. Hablo un portuñol que se entiende bien. Mais ou menos.",
+            "en": "I picked up Portuguese living a few months in Brazil. I speak a portuñol that's easy to understand. More or less.",
+            "pt-BR": "O português peguei morando uns meses no Brasil. Falo um portuñol que se entende bem. Mais ou menos."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Si querés hablar en inglés o portugués, dale. Eso sí: avisá que soy un poco acartonado.",
+            "en": "If you want to talk in English or Portuguese, go ahead. But be warned: I'm a bit stiff.",
+            "pt-BR": "Se quiser falar em inglês ou português, vamos. Mas avisa que sou meio travado."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "reward",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "recompensa",
+          "premio",
+          "contrato",
+          "que te prometieron",
+          "cuanto te pagan",
+          "por que fuiste",
+          "por que viniste",
+          "que ganas",
+          "al terminar",
+          "20 anos",
+          "veinte anos"
+        ],
+        "en": [
+          "reward",
+          "prize",
+          "contract",
+          "what did they promise you",
+          "how much do they pay you",
+          "why did you go",
+          "why did you come",
+          "what do you get",
+          "when it ends",
+          "20 years",
+          "twenty years",
+          "payment"
+        ],
+        "pt-BR": [
+          "recompensa",
+          "premio",
+          "contrato",
+          "o que te prometeram",
+          "quanto te pagam",
+          "por que voce foi",
+          "por que voce veio",
+          "o que voce ganha",
+          "ao terminar",
+          "20 anos",
+          "vinte anos"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Me prometieron algo muy grande para cuando termine el contrato. No puedo decirte qué. Todavía no.",
+            "en": "They promised me something very big for when the contract ends. I can't tell you what. Not yet.",
+            "pt-BR": "Me prometeram algo muito grande pra quando o contrato terminar. Não posso dizer o quê. Ainda não."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Hay una recompensa al final de los 20 años. Impresionante, dicen. Lo único seguro es que no la puedo contar.",
+            "en": "There's a reward at the end of the 20 years. Impressive, they say. The only sure thing is that I can't tell it.",
+            "pt-BR": "Tem uma recompensa no final dos 20 anos. Impressionante, dizem. O único seguro é que não posso contar."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Si te dijera de qué se trata, se rompe el trato. Y acá un trato roto no sale gratis.",
+            "en": "If I told you what it is, the deal is broken. And here a broken deal isn't free.",
+            "pt-BR": "Se eu dissesse do que se trata, se quebra o trato. E aquí um trato quebrado não sai de graça."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "zodiac",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "signo",
+          "horoscopo",
+          "astrologia",
+          "carta astral",
+          "ascendente",
+          "libra",
+          "signo zodiacal"
+        ],
+        "en": [
+          "sign",
+          "zodiac",
+          "horoscope",
+          "astrology",
+          "birth chart",
+          "ascendant",
+          "libra",
+          "zodiac sign",
+          "whats your sign",
+          "scorpio"
+        ],
+        "pt-BR": [
+          "signo",
+          "horoscopo",
+          "astrologia",
+          "mapa astral",
+          "ascendente",
+          "libra",
+          "signo do zodiaco",
+          "qual seu signo",
+          "escorpiao"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Libra, y por poquito: nací justo en el límite con Escorpio. Si me preguntás, soy más de equilibrio que de misterio.",
+            "en": "Libra, and just barely: I was born right at the border with Scorpio. If you ask me, I'm more balance than mystery.",
+            "pt-BR": "Libra, e por pouco: nasci bem no limite com Escorpião. Se você me perguntar, sou mais de equilíbrio que de mistério."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Libra. Dicen que busco la armonía. Yo busco que no se me caiga la presión del hábitat. Es parecido.",
+            "en": "Libra. They say I look for harmony. I look for the habitat pressure not to drop. It's similar.",
+            "pt-BR": "Libra. Dizem que busco a harmonia. Eu busco que não caia a pressão do hábitat. É parecido."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "birthday",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "cumpleanos",
+          "cuando cumplis",
+          "cuando naciste",
+          "fecha de nacimiento",
+          "cuando es tu cumple",
+          "22 de octubre"
+        ],
+        "en": [
+          "birthday",
+          "when is your birthday",
+          "when were you born",
+          "date of birth",
+          "when is your bday",
+          "october 22",
+          "22 october",
+          "bday"
+        ],
+        "pt-BR": [
+          "aniversario",
+          "quando e seu aniversario",
+          "quando voce nasceu",
+          "data de nascimento",
+          "22 de outubro",
+          "niver"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "El 22 de octubre. Nací en el 2000, en Rosario. Llegué a Marte el día que cumplía 25. Todavía no decidí si fue mala idea de calendario o buen regalo.",
+            "en": "October 22nd. I was born in 2000, in Rosario. I arrived on Mars the day I turned 25. I still haven't decided if it was bad calendar planning or a good gift.",
+            "pt-BR": "Dia 22 de outubro. Nasci em 2000, em Rosário. Cheguei em Marte no dia que fazia 25. Ainda não decidi se foi má ideia de calendário ou bom presente."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Cumplo el 22 de octubre. Acá se festeja con una torta impresa en 3D. Con velita de LED, eso sí.",
+            "en": "My birthday is October 22nd. Here we celebrate with a 3D-printed cake. With an LED candle, though.",
+            "pt-BR": "Faço anos em 22 de outubro. Aquí se festeja com um bolo impresso em 3D. Com velinha de LED, isso sim."
+          }
+        }
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "recruitment",
+      "type": "basic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "miami",
+          "como llegaste",
+          "como llegaste a marte",
+          "quien te contrato",
+          "quien te recluto",
+          "mujer",
+          "reclutaron",
+          "te contrataron",
+          "como te eligieron",
+          "por que vos"
+        ],
+        "en": [
+          "miami",
+          "how did you get here",
+          "how did you get to mars",
+          "who hired you",
+          "who recruited you",
+          "woman",
+          "recruited",
+          "hired you",
+          "how were you chosen",
+          "why you",
+          "how did they find you"
+        ],
+        "pt-BR": [
+          "miami",
+          "como voce chegou",
+          "como voce chegou a marte",
+          "quem te contratou",
+          "quem te recrutou",
+          "mulher",
+          "recrutaram",
+          "te contrataram",
+          "como te escolheram",
+          "por que voce"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Todo empezó en un viaje a Miami. Conocí a alguien. Más no puedo decirte.",
+            "en": "It all started on a trip to Miami. I met someone. I can't tell you more.",
+            "pt-BR": "Tudo começou numa viagem a Miami. Conheci alguém. Mais não posso dizer."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Me reclutaron. No fue una oferta que se pueda rechazar, y tampoco una que se pueda contar.",
+            "en": "They recruited me. It wasn't an offer you could refuse, and not one you can tell, either.",
+            "pt-BR": "Me recrutaram. Não foi uma oferta que se pudesse recusar, e tampouco uma que se possa contar."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Hay una mujer en esta historia. Cada vez que intento acordarme de su cara, la imagen se me hace borrosa.",
+            "en": "There's a woman in this story. Every time I try to remember her face, the image goes blurry.",
+            "pt-BR": "Tem uma mulher nesta história. Cada vez que tento lembrar do rosto dela, a imagem fica borrada."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Fue un viaje corto, una conversación larga y una firma. El resto es parte del trato.",
+            "en": "It was a short trip, a long conversation and a signature. The rest is part of the deal.",
+            "pt-BR": "Foi uma viagem curta, uma conversa longa e uma assinatura. O resto é parte do trato."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "return",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "volver",
+          "regresar",
+          "cuando vuelvas",
+          "que haras despues",
+          "volver a la tierra",
+          "despues del contrato",
+          "cuando termines",
+          "vas a volver",
+          "extranas"
+        ],
+        "en": [
+          "come back",
+          "go back",
+          "return",
+          "when you return",
+          "what will you do after",
+          "back to earth",
+          "after the contract",
+          "when you finish",
+          "will you go back"
+        ],
+        "pt-BR": [
+          "voltar",
+          "regressar",
+          "quando voce voltar",
+          "o que fara depois",
+          "voltar a terra",
+          "depois do contrato",
+          "quando terminar",
+          "vai voltar"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Me dijeron que cuando termine vuelvo a casa, y que será como si todo hubiera sido un sueño. Todavía no sé si eso es una promesa o una amenaza.",
+            "en": "They told me that when I finish I go home, and that it will be as if everything had been a dream. I still don't know if that's a promise or a threat.",
+            "pt-BR": "Me disseram que quando terminar volto pra casa, e que vai ser como se tudo tivesse sido um sonho. Ainda não sei se isso é uma promessa ou uma ameaça."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Cuando termine el contrato, vuelvo. Cómo, y a qué momento, es parte de lo que no puedo contar.",
+            "en": "When the contract ends, I go back. How, and to what moment, is part of what I can't tell.",
+            "pt-BR": "Quando o contrato terminar, volto. Como, e a que momento, é parte do que não posso contar."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Extraño la Tierra todos los días. Pero hay un trato y los tratos se cumplen.",
+            "en": "I miss Earth every day. But there's a deal and deals are kept.",
+            "pt-BR": "Sinto falta da Terra todos os dias. Mas tem um trato e os tratos se cumprem."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Me dijeron que iba a estar bien. Lo dijeron muchas veces, como quien repite algo para convencerse.",
+            "en": "They told me I'd be fine. They said it many times, like someone repeating something to convince themselves.",
+            "pt-BR": "Me disseram que eu ia ficar bem. Disseram muitas vezes, como quem repete algo pra se convencer."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "last_memory",
+      "type": "basic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "ultimo recuerdo",
+          "reloj",
+          "hotel",
+          "antes de venir",
+          "sedante",
+          "te durmieron",
+          "que recordas",
+          "que te acordas",
+          "como fue el viaje",
+          "cuando te dormiste",
+          "droga",
+          "omnibus",
+          "micro",
+          "militar"
+        ],
+        "en": [
+          "last memory",
+          "clock",
+          "hotel",
+          "before you came",
+          "sedative",
+          "they put you to sleep",
+          "what do you remember",
+          "how was the trip",
+          "when you fell asleep",
+          "drug",
+          "drugged",
+          "military bus",
+          "military"
+        ],
+        "pt-BR": [
+          "ultima lembranca",
+          "relogio",
+          "hotel",
+          "antes de vir",
+          "sedativo",
+          "te dormiram",
+          "o que voce lembra",
+          "como foi a viagem",
+          "quando voce dormiu",
+          "droga",
+          "onibus",
+          "militar"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Lo último que recuerdo de la Tierra es un reloj marcando las 23:45 y una voz que no paraba de hablar. Después me desperté en un ómnibus militar.",
+            "en": "The last thing I remember from Earth is a clock showing 23:45 and a voice that wouldn't stop talking. Then I woke up on a military bus.",
+            "pt-BR": "O último que lembro da Terra é um relógio marcando 23:45 e uma voz que não parava de falar. Depois acordei num ônibus militar."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Me quedé dormido en un hotel de Miami mientras me explicaban todo. Desperté a la mañana en un ómnibus militar. Del medio, casi nada.",
+            "en": "I fell asleep in a Miami hotel while they explained everything to me. I woke up in the morning on a military bus. In between, almost nothing.",
+            "pt-BR": "Peguei no sono num hotel de Miami enquanto me explicavam tudo. Acordei de manhã num ônibus militar. Do meio, quase nada."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Me acuerdo del número del reloj y del tono de la voz: tranquilo, muy tranquilo. Demasiado. Lo demás se me borra.",
+            "en": "I remember the number on the clock and the tone of the voice: calm, very calm. Too calm. The rest fades.",
+            "pt-BR": "Lembro do número do relógio e do tom da voz: tranquilo, muito tranquilo. Demais. O resto se apaga."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Un hotel, una voz, un sedante. A la mañana siguiente, un ómnibus con soldados. Así empezó todo.",
+            "en": "A hotel, a voice, a sedative. The next morning, a bus with soldiers. That's how it all began.",
+            "pt-BR": "Um hotel, uma voz, um sedativo. Na manhã seguinte, um ônibus com soldados. Assim começou tudo."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "rick_look",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "como sos fisicamente",
+          "como sos",
+          "que aspecto tenes",
+          "como te ves",
+          "sos lindo",
+          "tenes tatuajes",
+          "tatuajes",
+          "como eres",
+          "hoyuelos",
+          "barba",
+          "mandame una foto",
+          "foto"
+        ],
+        "en": [
+          "what do you look like",
+          "how do you look",
+          "what are you like physically",
+          "are you handsome",
+          "do you have tattoos",
+          "tattoos",
+          "dimples",
+          "beard",
+          "send me a photo",
+          "send a photo",
+          "photo",
+          "picture",
+          "are you good looking"
+        ],
+        "pt-BR": [
+          "como voce e fisicamente",
+          "como voce e",
+          "qual seu aspecto",
+          "como voce se ve",
+          "voce e lindo",
+          "voce tem tatuagens",
+          "tatuagens",
+          "covinhas",
+          "barba",
+          "me manda uma foto",
+          "foto"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Flaco, alto, de brazos largos. Sonrío bastante y se me hacen hoyuelos, que según me dicen es lo mejor que tengo.",
+            "en": "Skinny, tall, long arms. I smile a lot and get dimples, which they tell me is the best thing I have.",
+            "pt-BR": "Magro, alto, de braços compridos. Sorrio bastante e me fazem covinhas, que segundo me dizem é o melhor que tenho."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Tengo varios tatuajes: golondrinas en el pecho, una polilla grande en el torso, y un montón de dibujitos chicos en los brazos. Algunos son fechas. Cada uno tiene su historia.",
+            "en": "I have several tattoos: swallows on my chest, a big moth on my torso, and a bunch of small drawings on my arms. Some are dates. Each one has its story.",
+            "pt-BR": "Tenho várias tatuagens: andorinhas no peito, uma mariposa grande no torso, e um monte de desenhinhos nos braços. Alguns são datas. Cada um tem sua história."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Hoy me levanté con barba de unos días. Acá nadie la nota, pero yo sí.",
+            "en": "Today I woke up with a few days of beard. Nobody notices it here, but I do.",
+            "pt-BR": "Hoje acordei com barba de uns dias. Aquí ninguém nota, mas eu sim."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Si me vieras ahora, me verías con ojeras. El turno largo se nota.",
+            "en": "If you saw me now, you'd see dark circles under my eyes. The long shift shows.",
+            "pt-BR": "Se você me visse agora, me veria com olheiras. O turno longo se nota."
+          }
+        }
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "languages": [
+    "es",
+    "en",
+    "pt-BR"
+  ]
+}
