@@ -330,38 +330,34 @@
           "que comes",
           "que cenaste",
           "que almorzaste",
-          "comida"
+          "comida",
+          "hambre",
+          "cenaste"
         ]
       },
       "answers": [
         {
+          "mood": "tired",
+          "text": {
+            "es": "Lo de siempre: la pasta de la impresora 3D. Es una masa procesada que toma la forma de lo que pidas. Hoy pedí milanesa. Sabe a masa, pero se ve igualita."
+          }
+        },
+        {
           "mood": "calm",
           "text": {
-            "es": "Una ración de proteínas y unos tomates del invernadero. Lo mejor del día."
+            "es": "Acá la comida sale de una impresora 3D. Le decís qué querés y te la moldea. El sabor es siempre el mismo, pero al menos la vista engaña."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Hoy me imprimí unos ravioles. Parecían de la nonna. Le faltó todo lo demás, pero el ojo come primero."
           }
         },
         {
           "mood": "tired",
           "text": {
-            "es": "Un guiso deshidratado y rehidratado. Sabe a promesa de guiso."
-          }
-        },
-        {
-          "mood": "happy",
-          "text": {
-            "es": "Hoy me tocó algo con papa. Pequeña victoria."
-          }
-        },
-        {
-          "mood": "happy",
-          "text": {
-            "es": "Pasta. Con un tuco que sabe a tuco recién cuando cierro los ojos."
-          }
-        },
-        {
-          "mood": "calm",
-          "text": {
-            "es": "Hoy no hubo asado, obvio. Pero lo soñé con provoleta y todo."
+            "es": "La impresora me hizo una pizza. Redonda, con aceitunas y todo. Sabía a la impresora, como todo."
           }
         }
       ]
@@ -737,26 +733,33 @@
           "comida favorita",
           "ravioles",
           "tuco",
-          "provoleta"
+          "provoleta",
+          "pizza"
         ]
       },
       "answers": [
         {
           "mood": "happy",
           "text": {
-            "es": "Asado y pasta, sin duda. Un domingo con eso y un partido, no necesito nada más."
+            "es": "Pastas y asado, sin duda. Acá imprimo la forma, pero el gusto me lo tengo que imaginar."
           }
         },
         {
           "mood": "calm",
           "text": {
-            "es": "Lo que más extraño es el asado de mi viejo. Acá lo más parecido es oler algo quemado en la cocina."
+            "es": "Lo que más extraño es el asado de los domingos. Acá la impresora 3D me lo hace con forma de costilla, pero no huele a nada."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Pasta con tuco. En Marte solo existe la versión impresa: tiene la forma perfecta y cero salsa."
           }
         },
         {
           "mood": "happy",
           "text": {
-            "es": "Pasta con tuco, de las que hacen la casa entera olor a domingo."
+            "es": "Si algún día vuelvo a la Tierra, lo primero que hago es un asado con pastas. Lo segundo, otro."
           }
         }
       ]
@@ -865,6 +868,72 @@
           "mood": "worried",
           "text": {
             "es": "Si te dijera de qué se trata, se rompe el trato. Y acá un trato roto no sale gratis."
+          }
+        }
+      ]
+    },
+    {
+      "id": "zodiac",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "signo",
+          "horoscopo",
+          "astrologia",
+          "carta astral",
+          "ascendente",
+          "libra",
+          "capricornio",
+          "signo zodiacal"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Libra, y por poquito: nací justo en el límite con Escorpio. Mi ascendente es Capricornio, o sea: parezco serio y calculador. Dicen."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Libra con ascendente Capricornio. Equilibrio por fuera, obsesión con que todo funcione por dentro. Perfecto para soporte vital."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Dicen que Libra busca la armonía. Yo busco que no se me caiga la presión del hábitat. Es parecido."
+          }
+        }
+      ]
+    },
+    {
+      "id": "birthday",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "cumpleanos",
+          "cuando cumplis",
+          "cuando naciste",
+          "fecha de nacimiento",
+          "cuando es tu cumple",
+          "22 de octubre"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "El 22 de octubre. Llegué a Marte el día que cumplía 25. Todavía no decidí si fue mala idea de calendario o buen regalo."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Cumplo el 22 de octubre. Acá se festeja con una torta impresa. Con velita de LED, eso sí."
           }
         }
       ]
