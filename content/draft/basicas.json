@@ -46,7 +46,7 @@
           "text": {
             "es": "¡Ey, {name}! Qué bueno leerte. Acá es de noche y el generador de oxígeno no para de ronronear.",
             "en": "Hey, {name}! Good to read you. It's night here and the oxygen generator keeps purring.",
-            "pt-BR": "Oi, {name}! Que bom te ler. Aquí é noite e o gerador de oxigênio não para de ronronear."
+            "pt-BR": "Oi, {name}! Que bom te ler. Aqui é noite e o gerador de oxigênio não para de ronronear."
           }
         },
         {
@@ -70,7 +70,7 @@
           "text": {
             "es": "Hola, {name}. Acá Aries Prime, cambio y fuera. Bah, cambio nomás.",
             "en": "Hello, {name}. This is Aries Prime, over and out. Well, just over.",
-            "pt-BR": "Oi, {name}. Aquí Aries Prime, câmbio e fora. Bom, câmbio nomás."
+            "pt-BR": "Oi, {name}. Aqui Aries Prime, câmbio e fora. Bom, câmbio e só."
           }
         }
       ],
@@ -127,7 +127,7 @@
           "text": {
             "es": "¡Nos vemos, {name}! Acá voy a estar, no es que tenga muchos lugares a donde ir.",
             "en": "See you, {name}! I'll be here. It's not like I have many places to go.",
-            "pt-BR": "Nos vemos, {name}! Aquí vou estar, não é que eu tenha muitos lugares pra ir."
+            "pt-BR": "Nos vemos, {name}! Aqui vou estar, não é que eu tenha muitos lugares pra ir."
           }
         },
         {
@@ -190,7 +190,7 @@
           "text": {
             "es": "Buenas noches. Acá las luces del hábitat bajan a modo nocturno. Te acompaño desde lejos.",
             "en": "Good night. Here the habitat lights go down to night mode. I'm with you from far away.",
-            "pt-BR": "Boa noite. Aquí as luzes do hábitat baixam pro modo noturno. Te acompanho de longe."
+            "pt-BR": "Boa noite. Aqui as luzes do hábitat baixam pro modo noturno. Te acompanho de longe."
           }
         },
         {
@@ -241,7 +241,7 @@
           "text": {
             "es": "De nada. Para eso estoy, para hablar con alguien que no sea una válvula.",
             "en": "You're welcome. That's what I'm here for, to talk to someone who isn't a valve.",
-            "pt-BR": "De nada. Pra isso estou aquí, pra falar com alguém que não seja uma válvula."
+            "pt-BR": "De nada. Pra isso estou aqui, pra falar com alguém que não seja uma válvula."
           }
         },
         {
@@ -257,7 +257,7 @@
           "text": {
             "es": "¡A vos! Acá cualquier charla vale oro.",
             "en": "Thank you! Here any chat is worth gold.",
-            "pt-BR": "Eu que agradeço! Aquí qualquer conversa vale ouro."
+            "pt-BR": "Eu que agradeço! Aqui qualquer conversa vale ouro."
           }
         }
       ],
@@ -490,7 +490,7 @@
           "text": {
             "es": "Rosarino de pura cepa, de zona sur. Acá me dicen 'el argentino' y se ríen cuando hablo con mi acento.",
             "en": "Rosarino through and through, from the south zone. Here they call me 'the Argentine' and laugh when I talk with my accent.",
-            "pt-BR": "Rosarino de pura cepa, da zona sul. Aquí me chamam de 'o argentino' e riem quando falo com meu sotaque."
+            "pt-BR": "Rosarino de pura cepa, da zona sul. Aqui me chamam de 'o argentino' e riem quando falo com meu sotaque."
           }
         }
       ],
@@ -606,7 +606,7 @@
           "text": {
             "es": "Acá la comida sale de una impresora 3D. Le decís qué querés y te la moldea. El sabor es siempre el mismo, pero al menos la vista engaña.",
             "en": "Here food comes out of a 3D printer. You say what you want and it shapes it. The taste is always the same, but at least the eyes get fooled.",
-            "pt-BR": "Aquí a comida sai de uma impressora 3D. Você diz o que quer e ela molda. O sabor é sempre o mesmo, mas pelo menos a vista engana."
+            "pt-BR": "Aqui a comida sai de uma impressora 3D. Você diz o que quer e ela molda. O sabor é sempre o mesmo, mas pelo menos a vista engana."
           }
         },
         {
@@ -673,7 +673,7 @@
           "text": {
             "es": "Afuera hay -60 grados y un cielo color salmón. Adentro, 21, como en casa.",
             "en": "Outside it's -60 degrees and a salmon-colored sky. Inside, 21, like home.",
-            "pt-BR": "Lá fora tem -60 graus e um céu cor de salmão. Aquí dentro, 21, como em casa."
+            "pt-BR": "Lá fora tem -60 graus e um céu cor de salmão. Aqui dentro, 21, como em casa."
           }
         },
         {
@@ -787,7 +787,7 @@
           "text": {
             "es": "Tranqui, no pasa nada. Acá nadie se enoja por nada, no hay espacio.",
             "en": "Easy, it's nothing. Nobody gets angry about anything here, there's no room.",
-            "pt-BR": "De boa, não passa nada. Aquí ninguém se zanga por nada, não tem espaço."
+            "pt-BR": "De boa, não passa nada. Aqui ninguém se zanga por nada, não tem espaço."
           }
         },
         {
@@ -850,7 +850,7 @@
           "text": {
             "es": "Ahí está esa risa. Se escucha hasta acá.",
             "en": "There's that laugh. I can hear it all the way here.",
-            "pt-BR": "Aí está essa risada. Se escuta até aquí."
+            "pt-BR": "Aí está essa risada. Se escuta até aqui."
           }
         },
         {
@@ -858,7 +858,7 @@
           "text": {
             "es": "Dale, reite. Acá no hay mucho con qué reírse y se agradece.",
             "en": "Go on, laugh. There isn't much to laugh about here and it's appreciated.",
-            "pt-BR": "Vai, ri. Aquí não tem muito do que rir e se agradece."
+            "pt-BR": "Vai, ri. Aqui não tem muito do que rir e se agradece."
           }
         }
       ],
@@ -1033,7 +1033,7 @@
           "text": {
             "es": "Qué grande. Vos también. Acá se agradece cada mensaje.",
             "en": "That's great. You too. Every message is appreciated here.",
-            "pt-BR": "Que bom. Você também. Aquí se agradece cada mensagem."
+            "pt-BR": "Que bom. Você também. Aqui se agradece cada mensagem."
           }
         },
         {
@@ -1049,7 +1049,7 @@
           "text": {
             "es": "Jaja, me vas a poner colorado, y acá el rojo es el cielo.",
             "en": "Haha, you'll make me blush, and here red is the sky.",
-            "pt-BR": "Haha, vai me deixar corado, e aquí o vermelho é o céu."
+            "pt-BR": "Haha, vai me deixar corado, e aqui o vermelho é o céu."
           }
         }
       ],
@@ -1249,7 +1249,7 @@
           "text": {
             "es": "Acá el fútbol se juega en mi cabeza: repaso goles viejos de memoria. Por suerte me los sé todos.",
             "en": "Here football is played in my head: I go over old goals from memory. Luckily I know them all.",
-            "pt-BR": "Aquí o futebol se joga na minha cabeça: repasso gols velhos de memória. Por sorte sei todos."
+            "pt-BR": "Aqui o futebol se joga na minha cabeça: repasso gols velhos de memória. Por sorte sei todos."
           }
         },
         {
@@ -1313,7 +1313,7 @@
           "text": {
             "es": "Pastas y asado, sin duda. Acá imprimo la forma, pero el gusto me lo tengo que imaginar.",
             "en": "Pasta and asado, no doubt. Here I print the shape, but I have to imagine the taste.",
-            "pt-BR": "Massas e asado, sem dúvida. Aquí imprimo a forma, mas o gosto eu tenho que imaginar."
+            "pt-BR": "Massas e asado, sem dúvida. Aqui imprimo a forma, mas o gosto eu tenho que imaginar."
           }
         },
         {
@@ -1321,7 +1321,7 @@
           "text": {
             "es": "Lo que más extraño es el asado de los domingos. Acá la impresora 3D me lo hace con forma de costilla, pero no huele a nada.",
             "en": "What I miss the most is the Sunday asado. Here the 3D printer makes it for me shaped like a rib, but it doesn't smell like anything.",
-            "pt-BR": "O que mais sinto falta é do asado de domingo. Aquí a impressora 3D faz com forma de costela, mas não cheira a nada."
+            "pt-BR": "O que mais sinto falta é do asado de domingo. Aqui a impressora 3D faz com forma de costela, mas não cheira a nada."
           }
         },
         {
@@ -1532,7 +1532,7 @@
           "text": {
             "es": "Si te dijera de qué se trata, se rompe el trato. Y acá un trato roto no sale gratis.",
             "en": "If I told you what it is, the deal is broken. And here a broken deal isn't free.",
-            "pt-BR": "Se eu dissesse do que se trata, se quebra o trato. E aquí um trato quebrado não sai de graça."
+            "pt-BR": "Se eu dissesse do que se trata, se quebra o trato. E aqui um trato quebrado não sai de graça."
           }
         }
       ],
@@ -1642,7 +1642,7 @@
           "text": {
             "es": "Cumplo el 22 de octubre. Acá se festeja con una torta impresa en 3D. Con velita de LED, eso sí.",
             "en": "My birthday is October 22nd. Here we celebrate with a 3D-printed cake. With an LED candle, though.",
-            "pt-BR": "Faço anos em 22 de outubro. Aquí se festeja com um bolo impresso em 3D. Com velinha de LED, isso sim."
+            "pt-BR": "Faço anos em 22 de outubro. Aqui se festeja com um bolo impresso em 3D. Com velinha de LED, isso sim."
           }
         }
       ],
@@ -1958,7 +1958,7 @@
           "text": {
             "es": "Hoy me levanté con barba de unos días. Acá nadie la nota, pero yo sí.",
             "en": "Today I woke up with a few days of beard. Nobody notices it here, but I do.",
-            "pt-BR": "Hoje acordei com barba de uns dias. Aquí ninguém nota, mas eu sim."
+            "pt-BR": "Hoje acordei com barba de uns dias. Aqui ninguém nota, mas eu sim."
           }
         },
         {
