@@ -1,0 +1,653 @@
+{
+  "version": 1,
+  "language": "es",
+  "status": "borrador para revisión",
+  "intents": [
+    {
+      "id": "greeting",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "hola",
+          "buenas",
+          "buen dia",
+          "buenas tardes",
+          "que tal",
+          "ey",
+          "hey",
+          "holis"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "¡Ey, {name}! Qué bueno leerte. Acá es de noche y el generador de oxígeno no para de ronronear."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Hola. Justo terminaba la ronda de mantenimiento. ¿Cómo andás?"
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "¡Buenas! Te estaba esperando, che. Hoy el cielo está más rojo que de costumbre."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Hola, {name}. Acá Aries Prime, cambio y fuera. Bah, cambio nomás."
+          }
+        }
+      ]
+    },
+    {
+      "id": "farewell",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "chau",
+          "adios",
+          "hasta luego",
+          "nos vemos",
+          "me voy",
+          "bye",
+          "hasta pronto"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Dale, cuidate. Yo sigo con la ronda de turno. Escribime cuando quieras."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "¡Nos vemos, {name}! Acá voy a estar, no es que tenga muchos lugares a donde ir."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Chau. Mañana, o sea en un rato, hay otro amanecer anaranjado."
+          }
+        }
+      ]
+    },
+    {
+      "id": "goodnight",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "buenas noches",
+          "a dormir",
+          "me voy a dormir",
+          "que descanses",
+          "hasta manana",
+          "dulces suenos"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Descansá, {name}. Yo también me voy a la cápsula en un rato."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Buenas noches. Acá las luces del hábitat bajan a modo nocturno. Te acompaño desde lejos."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Dormí bien. Si sueño con la Tierra te cuento."
+          }
+        }
+      ]
+    },
+    {
+      "id": "thanks",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "gracias",
+          "muchas gracias",
+          "te agradezco",
+          "genial gracias",
+          "mil gracias"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "De nada, che. Para eso estoy, para hablar con alguien que no sea una válvula."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "No hay de qué. Me hace bien charlar con alguien."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "¡A vos! Acá cualquier charla vale oro."
+          }
+        }
+      ]
+    },
+    {
+      "id": "how_are_you",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "como estas",
+          "como andas",
+          "como te va",
+          "todo bien",
+          "como te sentis",
+          "que tal estas",
+          "como va"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Cansado pero bien. Día {day} y todavía me sorprende el cielo color óxido."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Tranqui. Hoy no hubo alarmas, que en Marte ya es una buena noticia."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Bien, con ganas de charlar. ¿Y vos?"
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Con un ojo en los sensores y otro en la pantalla. Pero todo en orden."
+          }
+        }
+      ]
+    },
+    {
+      "id": "who_are_you",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "quien sos",
+          "como te llamas",
+          "tu nombre",
+          "quien eres",
+          "presentate",
+          "contame de vos"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Rick Morales, 25 años, ingeniero de soporte vital. Soy de Rosario y vivo en Aries Prime, la colonia."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Soy Rick. Me encargo de que el aire, el agua y la temperatura de la colonia sigan funcionando. Lo básico para no morir."
+          }
+        }
+      ]
+    },
+    {
+      "id": "age",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "cuantos anos tenes",
+          "tu edad",
+          "que edad tenes",
+          "cuantos anos tienes"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Tengo 25. Llegué a Marte con 25 también y mi contrato dura 20 años. Hacé la cuenta."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "25. Para ser ingeniero en Marte soy joven, dicen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "origin",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "de donde sos",
+          "donde naciste",
+          "sos argentino",
+          "sos de rosario",
+          "de donde eres",
+          "rosario"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "De Rosario, Argentina. Extraño el río Paraná, los asados y hasta el quilombo del centro."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Soy de Rosario. Lo más lejos de ahí que estuve es esto: unos 225 millones de kilómetros."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Rosarino de pura cepa. Acá me dicen 'el argentino' y se ríen cuando digo che."
+          }
+        }
+      ]
+    },
+    {
+      "id": "what_doing",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "que haces",
+          "que estas haciendo",
+          "en que andas",
+          "que hacias",
+          "en que estas"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "focused",
+          "text": {
+            "es": "Revisando los filtros de CO2 del sector 3. No es tan glamoroso como parece."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Tomando un mate de acá: agua reciclada, cero romanticismo, pero caliente."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Terminando el turno. Los de soporte vital nunca descansamos del todo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "eating",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "que comiste",
+          "comiste",
+          "tenes hambre",
+          "que comes",
+          "que cenaste",
+          "que almorzaste",
+          "comida"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Una ración de proteínas y unos tomates del invernadero. Lo mejor del día."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Un guiso deshidratado y rehidratado. Sabe a promesa de guiso."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Hoy me tocó algo con papa. Pequeña victoria."
+          }
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "clima",
+          "hace frio",
+          "tiempo",
+          "temperatura",
+          "hace calor",
+          "tormenta",
+          "viento"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Afuera hay -60 grados y un cielo color salmón. Adentro, 21, como en casa."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Hay algo de viento y polvo. Si sube la tormenta, se cierran las esclusas."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Frío seco, cielo limpio. Un día lindo, para lo que es Marte."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nice_to_meet",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "mucho gusto",
+          "encantado",
+          "un gusto",
+          "placer",
+          "un placer"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "El gusto es mío. No es fácil conocer gente nueva a 225 millones de kilómetros."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Encantado, {name}. Pasá, estás en tu casa. O en la mía, depende de cómo lo mires."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sorry",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "perdon",
+          "disculpa",
+          "perdoname",
+          "lo siento",
+          "mi culpa"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Tranqui, no pasa nada. Acá nadie se enoja por nada, no hay espacio."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "No hay problema, {name}. Seguimos."
+          }
+        }
+      ]
+    },
+    {
+      "id": "laugh",
+      "type": "basic",
+      "priority": 1,
+      "keywords": {
+        "es": [
+          "jaja",
+          "jajaja",
+          "jeje",
+          "lol",
+          "me rio",
+          "haha",
+          "jajajaja"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Jaja, me alegraste el turno."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Ahí está esa risa. Se escucha hasta acá."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Dale, reite. Acá no hay mucho con qué reírse y se agradece."
+          }
+        }
+      ]
+    },
+    {
+      "id": "yes_ok",
+      "type": "basic",
+      "priority": 0,
+      "keywords": {
+        "es": [
+          "si",
+          "sii",
+          "dale",
+          "ok",
+          "okey",
+          "de acuerdo",
+          "claro",
+          "por supuesto",
+          "obvio"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Perfecto."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Bien. Seguimos entonces."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Dale, entonces."
+          }
+        }
+      ]
+    },
+    {
+      "id": "no",
+      "type": "basic",
+      "priority": 0,
+      "keywords": {
+        "es": [
+          "no",
+          "nop",
+          "para nada",
+          "nunca",
+          "negativo"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Entiendo."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Bueno, no pasa nada."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Está bien, cambiemos de tema."
+          }
+        }
+      ]
+    },
+    {
+      "id": "compliment",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "me caes bien",
+          "sos copado",
+          "sos genial",
+          "te quiero",
+          "sos lindo",
+          "sos buena onda",
+          "me gustas"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Qué grande, che. Vos también. Acá se agradece cada mensaje."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Gracias, {name}. Me hace bien sentirme acompañado."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Jaja, me vas a poner colorado, y acá el rojo es el cielo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "are_you_real",
+      "type": "basic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "sos real",
+          "existis",
+          "sos una ia",
+          "sos un robot",
+          "eres real",
+          "sos de verdad",
+          "sos humano"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Soy Rick, vivo en Aries Prime y mi contrato dice 20 años. Más real que eso no te lo puedo demostrar desde acá."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Real, real. Aunque entiendo que desde la Tierra parezca una locura."
+          }
+        }
+      ]
+    },
+    {
+      "id": "what_can_i_ask",
+      "type": "basic",
+      "priority": 2,
+      "keywords": {
+        "es": [
+          "ayuda",
+          "que puedo preguntarte",
+          "de que hablamos",
+          "que te puedo preguntar",
+          "que sabes",
+          "opciones"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Preguntame lo que quieras: cómo es la colonia, cómo está la Tierra, qué comí, cómo estoy yo."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Contame cómo estás, preguntame por Marte o por mi día. Charlamos de todo."
+          }
+        }
+      ]
+    }
+  ]
+}
