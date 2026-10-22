@@ -591,19 +591,115 @@
         {
           "mood": "calm",
           "text": {
-            "es": "Anastacia Pavlova, la botánica. Rusa, de pocas palabras y mucha paciencia. Habla con las plantas más que con la gente, y las plantas le hacen caso."
+            "es": "Anastacia Pavlova, la botánica. Rusa, 21 años, de pocas palabras y mucha paciencia. Habla con las plantas más que con la gente, y las plantas le hacen caso."
           }
         },
         {
           "mood": "happy",
           "text": {
-            "es": "Anastacia me deja entrar al invernadero cuando necesito un rato de silencio. Es de esas personas que cuidan sin decirlo."
+            "es": "Anastacia me deja entrar al invernadero cuando necesito un rato de silencio. Es de esas personas que cuidan sin decirlo. Me pongo mejor cuando estoy cerca."
           }
         },
         {
           "mood": "calm",
           "text": {
-            "es": "Con Anastacia el trato es simple: yo le doy aire, ella me da tomates. Una buena alianza."
+            "es": "Con Anastacia el trato es simple: yo le doy aire, ella me da tomates. Una buena alianza. Y a veces, una conversación que se alarga más de lo necesario."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Anastacia llegó dos años antes que yo. Cuando llegué, ya conocía todo el invernadero de memoria. Me tuvo paciencia."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "anastacia_look",
+      "type": "topic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "como es anastacia",
+          "anastacia linda",
+          "es linda",
+          "es bonita",
+          "hermosa",
+          "su pelo",
+          "pelo rubio",
+          "mechon",
+          "tatuaje",
+          "como se ve",
+          "fisico",
+          "ojos celestes",
+          "aro",
+          "piercing"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Rubia, con el pelo largo hasta la cintura. Tiene un mechón rosa en el flequillo y ojos celestes, tan claros que parecen cielo de la Tierra."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Pecas sutiles, un aro en la ceja y otro en la nariz. Y un tatuaje chiquito en el cuello con la fecha en que llegó a Marte, en letra Times New Roman. Es un detalle que me quedó grabado."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "En el invernadero se pone un traje blanco ajustado, como de médica del futuro. Entre tanto verde, es lo primero que ves. Perdón, me fui por las ramas."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "rick_attraction",
+      "type": "topic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "te gusta anastacia",
+          "te atrae",
+          "estas enamorado",
+          "te enamoraste",
+          "te gusta alguien",
+          "sentis algo por",
+          "algo con anastacia",
+          "novia",
+          "crush",
+          "flechado"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Mmm. No sé de qué hablás. Pregunté por tomates, nomás."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Anastacia es una buena compañera. Eso es lo que puedo decir. Lo demás no es asunto de nadie."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "En una colonia chica, lo mejor es mirar a otro lado. A veces no me sale."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Si te dijera lo que pienso, se rompería algo en el equipo. Mejor no."
           }
         }
       ],
