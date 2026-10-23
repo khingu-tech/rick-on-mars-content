@@ -1,4 +1,4 @@
-# Rick on Mars · contenido
+# Rick Mars · contenido
 
 Contenido remoto de la app (reels de la colonia y eventos del chat).
 
