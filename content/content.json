@@ -1776,9 +1776,9 @@
         {
           "mood": "worried",
           "text": {
-            "es": "Todo empezó en un viaje a Miami. Conocí a alguien. Más no puedo decirte.",
-            "en": "It all started on a trip to Miami. I met someone. I can't tell you more.",
-            "pt-BR": "Tudo começou numa viagem a Miami. Conheci alguém. Mais não posso dizer."
+            "es": "Todo empezó en un viaje a Miami. Conocí a alguien. Si querés, te cuento esa noche.",
+            "en": "It all started on a trip to Miami. I met someone. If you want, I'll tell you about that night.",
+            "pt-BR": "Tudo começou numa viagem a Miami. Conheci alguém. Se quiser, te conto sobre aquela noite."
           }
         },
         {
@@ -3929,6 +3929,430 @@
         }
       ],
       "complexity": "simple"
+    },
+    {
+      "id": "miami_night",
+      "type": "topic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "noche en miami",
+          "pub de miami",
+          "que paso en miami",
+          "vacaciones en miami",
+          "vacaciones",
+          "el pub",
+          "un pub",
+          "tragos",
+          "conociste a una mujer",
+          "quien era la mujer",
+          "como era la mujer",
+          "la mujer del pub",
+          "tu habitacion",
+          "habitacion del hotel",
+          "esa noche"
+        ],
+        "en": [
+          "night in miami",
+          "pub in miami",
+          "what happened in miami",
+          "vacation in miami",
+          "vacation",
+          "the pub",
+          "a pub",
+          "drinks",
+          "you met a woman",
+          "who was the woman",
+          "what was she like",
+          "the woman from the pub",
+          "your hotel room",
+          "hotel room",
+          "that night"
+        ],
+        "pt-BR": [
+          "noite em miami",
+          "pub em miami",
+          "o que aconteceu em miami",
+          "ferias em miami",
+          "ferias",
+          "o pub",
+          "um pub",
+          "drinks",
+          "voce conheceu uma mulher",
+          "quem era a mulher",
+          "como era a mulher",
+          "a mulher do pub",
+          "seu quarto de hotel",
+          "quarto do hotel",
+          "aquela noite"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Me fui de vacaciones a Miami. La primera noche salí a un pub a tomar unos tragos, nada raro. Ahí apareció ella.",
+            "en": "I went to Miami on vacation. The first night I headed to a pub for a few drinks, nothing unusual. That's where she showed up.",
+            "pt-BR": "Fui de férias para Miami. Na primeira noite saí para um pub tomar uns drinks, nada de estranho. Foi aí que ela apareceu."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "En el pub me puse a charlar con una mujer. Buena conversación, mucha risa, un trago de más. Me pareció una noche de suerte.",
+            "en": "At the pub I got talking with a woman. Good conversation, lots of laughs, one drink too many. I thought it was my lucky night.",
+            "pt-BR": "No pub comecei a conversar com uma mulher. Boa conversa, muita risada, um drink a mais. Achei que era uma noite de sorte."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Terminamos en la habitación de mi hotel. Y ahí se me corta la película: lo único que me queda es su voz, hablando tranquila, y un reloj marcando las 23:45.",
+            "en": "We ended up in my hotel room. And that's where the film cuts out: all I have left is her voice, calm and steady, and a clock reading 11:45 PM.",
+            "pt-BR": "Terminamos no quarto do meu hotel. E aí o filme corta: tudo o que me resta é a voz dela, tranquila, e um relógio marcando 23:45."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Hoy lo pienso y me pregunto si fue casualidad que nos cruzáramos. Con lo que sé ahora, creo que no. Pero esa noche yo no sospechaba nada.",
+            "en": "Looking back, I wonder if it was chance that we crossed paths. Knowing what I know now, I doubt it. But that night I suspected nothing.",
+            "pt-BR": "Hoje penso nisso e me pergunto se foi coincidência a gente se cruzar. Com o que sei agora, acho que não. Mas naquela noite eu não suspeitava de nada."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "bus_desert",
+      "type": "topic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "el omnibus",
+          "omnibus militar",
+          "desperte en un omnibus",
+          "viaje en omnibus",
+          "cuando despertaste",
+          "como despertaste",
+          "donde despertaste",
+          "desierto",
+          "el desierto",
+          "atravesando el desierto",
+          "por la ventana",
+          "los soldados",
+          "que viste al despertar"
+        ],
+        "en": [
+          "the bus",
+          "military bus",
+          "woke up on a bus",
+          "ride on the bus",
+          "when you woke up",
+          "how did you wake up",
+          "where did you wake up",
+          "desert",
+          "the desert",
+          "crossing the desert",
+          "out the window",
+          "the soldiers",
+          "what did you see when you woke up"
+        ],
+        "pt-BR": [
+          "o onibus",
+          "onibus militar",
+          "acordei em um onibus",
+          "viagem de onibus",
+          "quando voce acordou",
+          "como voce acordou",
+          "onde voce acordou",
+          "deserto",
+          "o deserto",
+          "atravessando o deserto",
+          "pela janela",
+          "os soldados",
+          "o que voce viu ao acordar"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Me desperté en un ómnibus militar, con el cuerpo pesado y la boca seca. Por la ventana, desierto hasta donde llegaba la vista.",
+            "en": "I woke up on a military bus, body heavy, mouth dry. Out the window, desert as far as the eye could see.",
+            "pt-BR": "Acordei em um ônibus militar, com o corpo pesado e a boca seca. Pela janela, deserto a perder de vista."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Había soldados en los asientos de adelante y nadie me dirigía la palabra. Yo seguía con la ropa de la noche anterior. Me acuerdo del motor y de nada más.",
+            "en": "There were soldiers in the front seats and nobody spoke to me. I was still in the previous night's clothes. I remember the engine and nothing else.",
+            "pt-BR": "Tinha soldados nos bancos da frente e ninguém falava comigo. Eu ainda estava com a roupa da noite anterior. Lembro do motor e de mais nada."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Lo primero que pensé fue que era una pesadilla. Después vi las armas y entendí que no. Estuve horas mirando el desierto sin saber adónde íbamos.",
+            "en": "My first thought was that it was a nightmare. Then I saw the weapons and understood it wasn't. I spent hours staring at the desert, not knowing where we were headed.",
+            "pt-BR": "Meu primeiro pensamento foi que era um pesadelo. Depois vi as armas e entendi que não. Passei horas olhando o deserto sem saber para onde íamos."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "base_wright",
+      "type": "topic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "wright patterson",
+          "base wright patterson",
+          "base wright",
+          "base militar",
+          "donde llegaron",
+          "adonde te llevaron",
+          "como supiste donde estabas",
+          "como supiste que era la base",
+          "la insignia",
+          "el uniforme",
+          "uniforme del soldado",
+          "el logo",
+          "como te diste cuenta",
+          "donde estabas"
+        ],
+        "en": [
+          "wright patterson",
+          "wright patterson air force base",
+          "wright base",
+          "military base",
+          "where did you arrive",
+          "where did they take you",
+          "how did you know where you were",
+          "how did you know it was the base",
+          "the badge",
+          "the uniform",
+          "soldier's uniform",
+          "the logo",
+          "how did you figure it out",
+          "where were you"
+        ],
+        "pt-BR": [
+          "wright patterson",
+          "base wright patterson",
+          "base wright",
+          "base militar",
+          "onde voces chegaram",
+          "para onde te levaram",
+          "como voce soube onde estava",
+          "como soube que era a base",
+          "a insignia",
+          "o uniforme",
+          "uniforme do soldado",
+          "o logo",
+          "como voce percebeu",
+          "onde voce estava"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Cuando el ómnibus paró, bajó un soldado y me hizo seguirlo. Su nombre no se veía en el uniforme, pero llevaba una insignia con un logo que decía Base Wright-Patterson.",
+            "en": "When the bus stopped, a soldier got off and had me follow him. His name wasn't visible on his uniform, but he wore a badge with a logo that read Wright-Patterson Base.",
+            "pt-BR": "Quando o ônibus parou, um soldado desceu e me mandou segui-lo. O nome dele não aparecia no uniforme, mas ele tinha uma insígnia com um logo escrito Base Wright-Patterson."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Nadie me dijo dónde estaba. Lo deduje por la insignia del soldado: decía Wright-Patterson. Ahí entendí que no era un secuestro cualquiera.",
+            "en": "Nobody told me where I was. I worked it out from the soldier's badge: it said Wright-Patterson. That's when I understood this was no ordinary kidnapping.",
+            "pt-BR": "Ninguém me disse onde eu estava. Deduzi pela insígnia do soldado: dizia Wright-Patterson. Ali entendi que não era um sequestro qualquer."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Del soldado nunca supe el nombre, solo tenía esa insignia con el logo de la base. Me alcanzó para saber que estaba en Wright-Patterson, una base de la fuerza aérea.",
+            "en": "I never learned the soldier's name, only that badge with the base logo. It was enough to tell me I was at Wright-Patterson, an Air Force base.",
+            "pt-BR": "Do soldado nunca soube o nome, só aquela insígnia com o logo da base. Bastou para eu saber que estava em Wright-Patterson, uma base da força aérea."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "contract_offer",
+      "type": "topic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "que proyecto",
+          "de que se trata el proyecto",
+          "el proyecto",
+          "proyecto secreto",
+          "20 and back",
+          "20 back",
+          "veinte y vuelta",
+          "el soldado",
+          "que te ofrecieron",
+          "la oferta",
+          "oferta del soldado",
+          "que te explico el soldado",
+          "que te dijo el soldado"
+        ],
+        "en": [
+          "what project",
+          "what is the project about",
+          "the project",
+          "secret project",
+          "20 and back",
+          "20 back",
+          "the soldier",
+          "what did they offer you",
+          "the offer",
+          "the soldier's offer",
+          "what did the soldier explain",
+          "what did the soldier say"
+        ],
+        "pt-BR": [
+          "que projeto",
+          "do que se trata o projeto",
+          "o projeto",
+          "projeto secreto",
+          "20 and back",
+          "20 back",
+          "o soldado",
+          "o que te ofereceram",
+          "a oferta",
+          "oferta do soldado",
+          "o que o soldado explicou",
+          "o que o soldado disse"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "El soldado me dijo que me habían elegido para un proyecto secreto: levantar una colonia en Marte, con un contrato de 20 años. Lo llaman \"20 & Back\".",
+            "en": "The soldier told me I'd been chosen for a secret project: building a colony on Mars, on a 20-year contract. They call it \"20 & Back\".",
+            "pt-BR": "O soldado me disse que eu fora escolhido para um projeto secreto: construir uma colônia em Marte, com contrato de 20 anos. Chamam de \"20 & Back\"."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "\"20 & Back\" es eso: veinte años allá y después volvés. Me lo explicó con la misma calma con la que se pide un café.",
+            "en": "\"20 & Back\" is just that: twenty years up there, then you come back. He explained it as calmly as ordering a coffee.",
+            "pt-BR": "\"20 & Back\" é isso: vinte anos lá e depois você volta. Ele explicou com a mesma calma de quem pede um café."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "La idea era armar una colonia permanente en Marte, y yo iba a ser parte de la primera tanda. Más detalles del proyecto no puedo darte.",
+            "en": "The idea was to set up a permanent colony on Mars, and I'd be part of the first batch. I can't give you more details about the project.",
+            "pt-BR": "A ideia era montar uma colônia permanente em Marte, e eu faria parte da primeira leva. Mais detalhes do projeto não posso dar."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Me aclaró que no era un voluntariado: yo ya figuraba en la lista. Lo único que me dejaban decidir era cómo empezar.",
+            "en": "He made it clear it wasn't volunteering: I was already on the list. The only thing they let me decide was how to start.",
+            "pt-BR": "Deixou claro que não era voluntariado: eu já estava na lista. A única coisa que me deixavam decidir era como começar."
+          }
+        }
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "chose_project",
+      "type": "topic",
+      "priority": 3,
+      "keywords": {
+        "es": [
+          "por que aceptaste",
+          "por que firmaste",
+          "por que no te volviste",
+          "volverte caminando",
+          "caminar por el desierto",
+          "volver caminando",
+          "que elegiste",
+          "podias elegir",
+          "tuviste opcion",
+          "tuviste eleccion",
+          "te arrepentis",
+          "te arrepentiste",
+          "aceptaste"
+        ],
+        "en": [
+          "why did you accept",
+          "why did you sign",
+          "why didn't you go back",
+          "walk back",
+          "walk through the desert",
+          "walk home",
+          "what did you choose",
+          "could you choose",
+          "did you have a choice",
+          "do you regret it",
+          "did you regret it",
+          "you accepted"
+        ],
+        "pt-BR": [
+          "por que voce aceitou",
+          "por que voce assinou",
+          "por que nao voltou",
+          "voltar a pe",
+          "andar pelo deserto",
+          "voltar caminhando",
+          "o que voce escolheu",
+          "podia escolher",
+          "teve escolha",
+          "voce se arrepende",
+          "voce se arrependeu",
+          "voce aceitou"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Me dio a elegir: volverme caminando por el desierto, sin ayuda, o entrar al proyecto en ese mismo momento. Dicho así, no parecía una elección.",
+            "en": "He gave me a choice: walk back through the desert, unaided, or join the project right then. Put like that, it didn't feel like a choice.",
+            "pt-BR": "Ele me deu a escolha: voltar a pé pelo deserto, sem ajuda, ou entrar no projeto naquele exato momento. Dito assim, não parecia uma escolha."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Miré el desierto, miré al soldado y dije que sí. Todavía hoy no sé si fue valentía o miedo.",
+            "en": "I looked at the desert, looked at the soldier and said yes. To this day I don't know if it was courage or fear.",
+            "pt-BR": "Olhei o deserto, olhei o soldado e disse que sim. Até hoje não sei se foi coragem ou medo."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Si decía que no, me iba caminando: sin agua, sin teléfono, sin saber dónde estaba. Entré al proyecto ese mismo día.",
+            "en": "If I said no, I'd be walking out: no water, no phone, no idea where I was. I joined the project that same day.",
+            "pt-BR": "Se eu dissesse não, ia embora a pé: sem água, sem telefone, sem saber onde estava. Entrei no projeto naquele mesmo dia."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "¿Si me arrepiento? Algunos días sí. Pero acá tengo gente, un trabajo que importa y un cielo que no existe en la Tierra.",
+            "en": "Do I regret it? Some days, yes. But here I have people, work that matters, and a sky that doesn't exist on Earth.",
+            "pt-BR": "Se me arrependo? Alguns dias, sim. Mas aqui tenho gente, um trabalho que importa e um céu que não existe na Terra."
+          }
+        }
+      ],
+      "complexity": "complex"
     }
   ],
   "events": [
