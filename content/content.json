@@ -2833,7 +2833,12 @@
           "falla",
           "accidente",
           "riesgo",
-          "tormenta de polvo"
+          "tormenta de polvo",
+          "suenan",
+          "suena",
+          "cuando suenan",
+          "que alarmas",
+          "sonar"
         ],
         "en": [
           "alarm",
@@ -2845,7 +2850,11 @@
           "risk",
           "dust storm",
           "dangerous",
-          "scary"
+          "scary",
+          "go off",
+          "goes off",
+          "when do they ring",
+          "ring"
         ],
         "pt-BR": [
           "alarme",
@@ -2856,7 +2865,11 @@
           "acidente",
           "risco",
           "tempestade de poeira",
-          "perigoso"
+          "perigoso",
+          "soam",
+          "soa",
+          "quando soam",
+          "tocar"
         ]
       },
       "answers": [
@@ -2882,6 +2895,22 @@
             "es": "Acá un error chico se vuelve grande rápido. Por eso reviso todo dos veces.",
             "en": "Here a small mistake becomes big fast. That's why I check everything twice.",
             "pt-BR": "Aqui um erro pequeno vira grande rápido. Por isso reviso tudo duas vezes."
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Casi siempre de madrugada, cuando baja la temperatura y los sistemas se estresan. A las tres de la mañana me despierta hasta el silencio.",
+            "en": "Almost always before dawn, when the temperature drops and the systems get stressed. At three in the morning even the silence wakes me up.",
+            "pt-BR": "Quase sempre de madrugada, quando a temperatura cai e os sistemas sofrem. Às três da manhã até o silêncio me acorda."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Hay de tres tipos: presión, aire y energía. La de presión es la que te para el corazón; suena grave y continua.",
+            "en": "There are three kinds: pressure, air and power. The pressure one is the one that stops your heart; it's low and continuous.",
+            "pt-BR": "Há três tipos: pressão, ar e energia. A de pressão é a que para o coração; soa grave e contínua."
           }
         }
       ],
