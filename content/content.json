@@ -4690,6 +4690,99 @@
           }
         }
       ]
+    },
+    {
+      "id": "machine",
+      "type": "topic",
+      "priority": 2,
+      "complexity": "complex",
+      "ordered": true,
+      "keywords": {
+        "es": [
+          "la maquina",
+          "que hace la maquina",
+          "maquina de parches",
+          "parche de dopamina",
+          "parches de dopamina",
+          "dopamina",
+          "como son felices",
+          "como logran ser felices",
+          "felicidad en la colonia",
+          "como combaten la tristeza",
+          "comida impresa",
+          "comida artificial",
+          "impresion 3d",
+          "impresora 3d",
+          "que comen",
+          "de donde sale la comida",
+          "maquina expendedora",
+          "que tomas"
+        ],
+        "en": [
+          "the machine",
+          "what does the machine do",
+          "patch machine",
+          "dopamine patch",
+          "dopamine patches",
+          "dopamine",
+          "how are you happy",
+          "happiness in the colony",
+          "how do you fight sadness",
+          "printed food",
+          "artificial food",
+          "3d printing",
+          "3d printer",
+          "what do you eat",
+          "where does the food come from",
+          "vending machine",
+          "what do you drink"
+        ],
+        "pt-BR": [
+          "a maquina",
+          "o que a maquina faz",
+          "maquina de patches",
+          "patch de dopamina",
+          "patches de dopamina",
+          "dopamina",
+          "como sao felizes",
+          "felicidade na colonia",
+          "como combatem a tristeza",
+          "comida impressa",
+          "comida artificial",
+          "impressao 3d",
+          "impressora 3d",
+          "o que comem",
+          "de onde vem a comida",
+          "maquina de venda",
+          "o que bebem"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "La máquina es lo más importante de la vida diaria. Es la misma que vende los parches: te imprime los de lectura, y también la comida y la bebida. Todo sale de una impresión 3D de alimentos, así que es artificial, pero al menos nunca falta. Pagás con créditos, apoyando la mano cerca del sensor. ¿Querés saber cómo hacemos para aguantar tanta desolación?",
+            "en": "The machine is the most important part of daily life. It's the same one that sells the patches: it prints the reading ones, and also the food and drinks. Everything comes out of 3D food printing, so it's artificial, but at least it never runs out. You pay with credits, resting your hand near the sensor. Want to know how we cope with so much desolation?",
+            "pt-BR": "A máquina é o mais importante da vida diária. É a mesma que vende os patches: imprime os de leitura, e também a comida e a bebida. Tudo sai de uma impressão 3D de alimentos, então é artificial, mas pelo menos nunca falta. Paga-se com créditos, apoiando a mão perto do sensor. Quer saber como a gente aguenta tanta desolação?"
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Marte es un lugar muy desolado, y alguien tuvo que resolver la felicidad. La respuesta es la misma máquina: también crea parches de dopamina. Te lo pegás y el ánimo te sube. Funciona, no te voy a mentir. El tema es que cuestan créditos, y los créditos son pocos.",
+            "en": "Mars is a very desolate place, and somebody had to solve happiness. The answer is the same machine: it also makes dopamine patches. You stick one on and your mood lifts. It works, I won't lie to you. The thing is they cost credits, and credits are few.",
+            "pt-BR": "Marte é um lugar muito desolado, e alguém teve que resolver a felicidade. A resposta é a mesma máquina: ela também cria patches de dopamina. Você cola e o ânimo sobe. Funciona, não vou mentir. O problema é que custam créditos, e os créditos são poucos."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "A veces me pregunto si lo que sentimos con esos parches es felicidad de verdad o solo una forma de que aguantemos. Pero un día malo, con el parche puesto, se pasa mejor. No sé, che. Mejor lo charlamos con calma.",
+            "en": "Sometimes I wonder whether what we feel with those patches is real happiness or just a way to get us to hold on. But a bad day goes by easier with the patch on. I don't know, man. Better we talk it over calmly.",
+            "pt-BR": "Às vezes me pergunto se o que sentimos com esses patches é felicidade de verdade ou só um jeito de nos fazer aguentar. Mas um dia ruim passa melhor com o patch. Não sei, cara. Melhor a gente conversar com calma."
+          }
+        }
+      ]
     }
   ],
   "events": [
