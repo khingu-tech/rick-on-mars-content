@@ -2065,7 +2065,16 @@
           "donde vivis",
           "hogar",
           "base",
-          "habitat"
+          "habitat",
+          "como es vivir en marte",
+          "vivir en marte",
+          "como es marte",
+          "algo de marte",
+          "hablame de marte",
+          "contame de marte",
+          "que tal marte",
+          "la vida en marte",
+          "como es la vida en marte"
         ],
         "en": [
           "colony",
@@ -2074,7 +2083,14 @@
           "where do you live",
           "base",
           "habitat",
-          "tell me about the colony"
+          "tell me about the colony",
+          "what is it like to live on mars",
+          "living on mars",
+          "what is mars like",
+          "something about mars",
+          "tell me about mars",
+          "life on mars",
+          "what is life like on mars"
         ],
         "pt-BR": [
           "colonia",
@@ -2084,7 +2100,15 @@
           "lar",
           "base",
           "habitat",
-          "me conta da colonia"
+          "me conta da colonia",
+          "como e viver em marte",
+          "viver em marte",
+          "como e marte",
+          "algo sobre marte",
+          "fala de marte",
+          "me conta de marte",
+          "a vida em marte",
+          "como e a vida em marte"
         ]
       },
       "answers": [
@@ -4353,6 +4377,76 @@
         }
       ],
       "complexity": "complex"
+    },
+    {
+      "id": "first_impression",
+      "type": "topic",
+      "priority": 3,
+      "complexity": "complex",
+      "keywords": {
+        "es": [
+          "lo primero que viste",
+          "lo primero que te llamo la atencion",
+          "primera impresion",
+          "primera impresion de marte",
+          "que te llamo la atencion",
+          "que viste al llegar",
+          "paisaje al llegar",
+          "te parecio el paisaje",
+          "que te parecio marte",
+          "primer dia en marte"
+        ],
+        "en": [
+          "the first thing you saw",
+          "the first thing that caught your attention",
+          "first impression",
+          "first impression of mars",
+          "what caught your attention",
+          "what did you see when you arrived",
+          "landscape when you arrived",
+          "what did you think of the landscape",
+          "what did you think of mars",
+          "first day on mars"
+        ],
+        "pt-BR": [
+          "a primeira coisa que voce viu",
+          "a primeira coisa que chamou sua atencao",
+          "primeira impressao",
+          "primeira impressao de marte",
+          "o que chamou sua atencao",
+          "o que voce viu ao chegar",
+          "paisagem ao chegar",
+          "o que achou da paisagem",
+          "o que achou de marte",
+          "primeiro dia em marte"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Lo primero que vi fue el cielo color óxido, y después la cúpula de Aries Prime recortada contra el horizonte. Me quedé un rato sin decir nada.",
+            "en": "The first thing I saw was the rust-colored sky, and then the dome of Aries Prime cut against the horizon. I stood there a while without saying anything.",
+            "pt-BR": "A primeira coisa que vi foi o céu cor de ferrugem e, depois, a cúpula de Aries Prime recortada contra o horizonte. Fiquei um tempo sem dizer nada."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Me llamó la atención el silencio. Ni viento que se escuche, ni pájaros, ni autos. Solo el zumbido de los sistemas.",
+            "en": "What struck me was the silence. No wind you can hear, no birds, no cars. Just the hum of the systems.",
+            "pt-BR": "O que me chamou a atenção foi o silêncio. Nem vento que se escute, nem pássaros, nem carros. Só o zumbido dos sistemas."
+          }
+        },
+        {
+          "mood": "happy",
+          "text": {
+            "es": "El tamaño de todo. El horizonte está más cerca de lo que esperás, y el cielo es enorme. Me sentí chiquito y, raro, bastante tranquilo.",
+            "en": "The sheer scale of it. The horizon is closer than you expect, and the sky is huge. I felt tiny and, oddly, pretty calm.",
+            "pt-BR": "O tamanho de tudo. O horizonte está mais perto do que você espera, e o céu é enorme. Me senti pequeno e, estranhamente, bem tranquilo."
+          }
+        }
+      ]
     }
   ],
   "events": [
