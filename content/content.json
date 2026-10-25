@@ -19,17 +19,17 @@
     "responseDelay": {
       "simple": {
         "seconds": [
-          1,
-          3
+          0.3,
+          0.8
         ],
-        "note": "saludos, datos fijos, charla cotidiana"
+        "note": "casi instantáneo: saludos, datos fijos, charla cotidiana"
       },
       "complex": {
         "seconds": [
-          50,
-          70
+          2,
+          5
         ],
-        "note": "preguntas complejas, temas de trama o que piden pensar; mientras tanto se muestra 'Rick está recibiendo señal…'"
+        "note": "máximo 5 segundos; preguntas complejas, temas de trama o que piden pensar; mientras tanto se muestra 'Rick está recibiendo señal…'"
       }
     }
   },
@@ -721,7 +721,17 @@
           "temperatura",
           "hace calor",
           "tormenta",
-          "viento"
+          "viento",
+          "temperatura en marte",
+          "que temperatura",
+          "cuantos grados",
+          "como es el clima",
+          "como esta el clima",
+          "clima en marte",
+          "que clima hace",
+          "cuanto frio hace",
+          "temperatura de hoy",
+          "grados hay"
         ],
         "en": [
           "weather",
@@ -733,7 +743,15 @@
           "storm",
           "wind",
           "windy",
-          "climate"
+          "climate",
+          "temperature on mars",
+          "how cold is it",
+          "what temperature",
+          "how many degrees",
+          "what is the weather",
+          "weather on mars",
+          "how is the weather",
+          "today s temperature"
         ],
         "pt-BR": [
           "clima",
@@ -745,40 +763,47 @@
           "calor",
           "tempestade",
           "vento",
-          "previsao"
+          "previsao",
+          "temperatura em marte",
+          "quantos graus",
+          "que temperatura",
+          "como esta o clima",
+          "clima em marte",
+          "quanto frio faz",
+          "temperatura de hoje"
         ]
       },
       "answers": [
         {
           "mood": "calm",
           "text": {
-            "es": "Afuera hay -60 grados y un cielo color salmón. Adentro, 21, como en casa.",
-            "en": "Outside it's -60 degrees and a salmon-colored sky. Inside, 21, like home.",
-            "pt-BR": "Lá fora tem -60 graus e um céu cor de salmão. Aqui dentro, 21, como em casa."
+            "es": "Hoy afuera: mínima de {tmin}° y máxima de {tmax}°, con un cielo color salmón. Adentro, 21°, como en casa.",
+            "en": "Outside today: low of {tmin}°, high of {tmax}°, under a salmon-colored sky. Inside, 21°, like home.",
+            "pt-BR": "Lá fora hoje: mínima de {tmin}° e máxima de {tmax}°, com um céu cor de salmão. Aqui dentro, 21°, como em casa."
           }
         },
         {
           "mood": "worried",
           "text": {
-            "es": "Hay algo de viento y polvo. Si sube la tormenta, se cierran las esclusas.",
-            "en": "There's some wind and dust. If the storm picks up, the airlocks get closed.",
-            "pt-BR": "Tem um pouco de vento e poeira. Se a tempestade sobe, fecham as eclusas."
+            "es": "Afuera marca {tmax}° en lo más cálido del día, y de noche baja a {tmin}°. Con algo de viento y polvo; si sube, se cierran las esclusas.",
+            "en": "Outside it reaches {tmax}° at the warmest, and drops to {tmin}° at night. Some wind and dust; if it picks up, the airlocks get closed.",
+            "pt-BR": "Lá fora chega a {tmax}° no ponto mais quente, e à noite cai para {tmin}°. Com um pouco de vento e poeira; se aumentar, fecham as eclusas."
           }
         },
         {
           "mood": "calm",
           "text": {
-            "es": "Frío seco, cielo limpio. Un día lindo, para lo que es Marte.",
-            "en": "Dry cold, clear sky. A nice day, for Mars.",
-            "pt-BR": "Frio seco, céu limpo. Um dia lindo, pro que é Marte."
+            "es": "Frío seco: {tmin}° de mínima, {tmax}° de máxima. Cielo limpio, un día lindo para lo que es Marte.",
+            "en": "Dry cold: {tmin}° low, {tmax}° high. Clear sky, a nice day for Mars.",
+            "pt-BR": "Frio seco: {tmin}° de mínima, {tmax}° de máxima. Céu limpo, um dia bonito pro que é Marte."
           }
         },
         {
           "mood": "happy",
           "text": {
-            "es": "Che, contame cómo está el clima por ahí. Hace mucho que no veo una nube de verdad.",
-            "en": "Tell me how the weather is over there. It's been a long time since I saw a real cloud.",
-            "pt-BR": "Che, me conta como está o clima aí. Faz muito que não vejo uma nuvem de verdade."
+            "es": "Hoy {tmax}° como máxima, que acá es casi primavera, jaja. La mínima, {tmin}°. Contame cómo está el clima por ahí, hace mucho que no veo una nube de verdad.",
+            "en": "Today's high is {tmax}°, which here is almost spring, haha. The low, {tmin}°. Tell me how the weather is over there, it's been ages since I saw a real cloud.",
+            "pt-BR": "Hoje a máxima é {tmax}°, que aqui é quase primavera, haha. A mínima, {tmin}°. Me conta como está o clima aí, faz tempo que não vejo uma nuvem de verdade."
           }
         }
       ],
@@ -4444,6 +4469,98 @@
             "es": "El tamaño de todo. El horizonte está más cerca de lo que esperás, y el cielo es enorme. Me sentí chiquito y, raro, bastante tranquilo.",
             "en": "The sheer scale of it. The horizon is closer than you expect, and the sky is huge. I felt tiny and, oddly, pretty calm.",
             "pt-BR": "O tamanho de tudo. O horizonte está mais perto do que você espera, e o céu é enorme. Me senti pequeno e, estranhamente, bem tranquilo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "type": "topic",
+      "priority": 2,
+      "complexity": "complex",
+      "keywords": {
+        "es": [
+          "como se organizan economicamente",
+          "economia en marte",
+          "economia de marte",
+          "como funciona la economia",
+          "hay dinero en marte",
+          "dinero en marte",
+          "como se pagan",
+          "como cobran",
+          "se usa plata",
+          "hay plata",
+          "como se organizan",
+          "organizacion economica",
+          "como se reparte",
+          "hay comercio",
+          "sistema economico",
+          "quien decide los pedidos",
+          "los pedidos a la tierra",
+          "como se decide que se pide",
+          "como se reparte la comida",
+          "quien lleva la cuenta"
+        ],
+        "en": [
+          "how are you organized economically",
+          "economy on mars",
+          "mars economy",
+          "how does the economy work",
+          "is there money on mars",
+          "money on mars",
+          "how do you get paid",
+          "do you use money",
+          "how is it organized",
+          "economic system",
+          "how do you trade",
+          "how are things shared",
+          "who decides the orders",
+          "orders to earth",
+          "how is food shared",
+          "who keeps the books"
+        ],
+        "pt-BR": [
+          "como se organizam economicamente",
+          "economia em marte",
+          "economia de marte",
+          "como funciona a economia",
+          "tem dinheiro em marte",
+          "dinheiro em marte",
+          "como pagam",
+          "como voces recebem",
+          "usam dinheiro",
+          "sistema economico",
+          "como se divide",
+          "tem comercio",
+          "quem decide os pedidos",
+          "pedidos a terra",
+          "como se divide a comida",
+          "quem faz a contabilidade"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Buena pregunta. Acá adentro casi no circula plata: todo lo esencial (aire, agua, comida, cama) lo pone la colonia y se reparte parejo. Cada uno aporta con su trabajo, el mío es soporte vital, el de Anastasia las plantas. Lo que no alcanza, llega desde la Tierra en las ventanas de carga, y ahí sí se cuenta todo, hasta los tornillos. ¿Querés que te cuente cómo se decide qué se pide, o cómo se reparte la comida?",
+            "en": "Good question. In here money barely circulates: the essentials (air, water, food, a bed) are provided by the colony and shared evenly. Everyone contributes with their work: mine is life support, Anastasia's is the plants. What we're short of comes from Earth in the cargo windows, and there everything is counted, even the screws. Want to hear how we decide what to order, or how the food is shared out?",
+            "pt-BR": "Boa pergunta. Aqui dentro quase não circula dinheiro: o essencial (ar, água, comida, cama) é a colônia que dá e é dividido por igual. Cada um contribui com seu trabalho: o meu é suporte vital, o da Anastasia são as plantas. O que falta chega da Terra nas janelas de carga, e aí sim se conta tudo, até os parafusos. Quer que eu conte como se decide o que pedir, ou como se divide a comida?"
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Pensalo como un barco largo: nadie compra el agua, pero todos tenemos turnos y tareas, y Karla lleva la cuenta de lo que entra y lo que se gasta. Los recursos son pocos, así que se planifican por ciclos, y cada pedido a la Tierra tarda meses en llegar. Por eso acá no se desperdicia nada. ¿Qué parte te intriga más: el reparto, los pedidos o el trabajo?",
+            "en": "Think of it as a long voyage: nobody buys water, but we all have shifts and duties, and Karla keeps the books on what comes in and what gets used. Resources are scarce, so they're planned in cycles, and every request to Earth takes months to arrive. That's why nothing gets wasted here. Which part intrigues you most: the sharing, the orders, or the work?",
+            "pt-BR": "Pense numa viagem longa: ninguém compra a água, mas todos temos turnos e tarefas, e a Karla leva a contabilidade do que entra e do que se gasta. Os recursos são poucos, então se planejam por ciclos, e cada pedido à Terra leva meses para chegar. Por isso aqui nada se desperdiça. Que parte te intriga mais: a divisão, os pedidos ou o trabalho?"
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "En resumen: puertas adentro es una economía de aporte y reparto, sin sueldos de bolsillo; hacia afuera, es un contrato con la Tierra que lo financia todo. De mi contrato en sí no puedo contarte más, pero sí cómo vivimos el día a día. Preguntame lo que quieras: los turnos, la comida, o qué pasa cuando algo se rompe.",
+            "en": "In short: inside it's an economy of contribution and sharing, with no pocket wages; outward-facing, it's a contract with Earth that funds everything. I can't tell you more about my contract itself, but I can tell you how we live day to day. Ask me anything: the shifts, the food, or what happens when something breaks.",
+            "pt-BR": "Resumindo: portas adentro é uma economia de contribuição e divisão, sem salário no bolso; para fora, é um contrato com a Terra que financia tudo. Do meu contrato em si não posso contar mais, mas posso contar como vivemos o dia a dia. Pergunte o que quiser: os turnos, a comida, ou o que acontece quando algo quebra."
           }
         }
       ]
