@@ -4507,7 +4507,6 @@
           "quien administra la colonia",
           "la inteligencia artificial",
           "creditos",
-          "tony rodrigues",
           "comercio con otras colonias",
           "trueque"
         ],
@@ -4534,7 +4533,6 @@
           "castes",
           "who runs the colony",
           "credits",
-          "tony rodrigues",
           "trade with other colonies",
           "barter"
         ],
@@ -4561,7 +4559,6 @@
           "castas",
           "quem administra a colonia",
           "creditos",
-          "tony rodrigues",
           "comercio com outras colonias",
           "troca"
         ]
@@ -4578,9 +4575,9 @@
         {
           "mood": "worried",
           "text": {
-            "es": "Y te lo digo como es: por contrato soy un trabajador, pero en la organización de la colonia somos esclavos. Hay esclavos con contrato, como yo, y esclavos sin contrato, que dependen de un amo. Es un sistema de castas. Karla, por ejemplo, no es esclava: es militar, de un rango superior. Tony Rodrigues lo explica bien en sus libros y entrevistas, si te da curiosidad.",
-            "en": "I'll tell you how it is: on paper I'm a contract worker, but in the colony's organization we're slaves. There are slaves with a contract, like me, and slaves without one, who depend on a master. It's a caste system. Karla, for instance, isn't a slave: she's military, a higher rank. Tony Rodrigues explains it well in his books and interviews, if you're curious.",
-            "pt-BR": "Vou te dizer como é: no contrato sou trabalhador, mas na organização da colônia somos escravos. Há escravos com contrato, como eu, e escravos sem contrato, que dependem de um amo. É um sistema de castas. A Karla, por exemplo, não é escrava: é militar, de patente superior. O Tony Rodrigues explica isso bem nos livros e entrevistas dele, se tiver curiosidade."
+            "es": "Y te lo digo como es: por contrato soy un trabajador, pero en la organización de la colonia somos esclavos. Hay esclavos con contrato, como yo, y esclavos sin contrato, que dependen de un amo. Es un sistema de castas. Karla, por ejemplo, no es esclava: es militar, de un rango superior.",
+            "en": "I'll tell you how it is: on paper I'm a contract worker, but in the colony's organization we're slaves. There are slaves with a contract, like me, and slaves without one, who depend on a master. It's a caste system. Karla, for instance, isn't a slave: she's military, a higher rank.",
+            "pt-BR": "Vou te dizer como é: no contrato sou trabalhador, mas na organização da colônia somos escravos. Há escravos com contrato, como eu, e escravos sem contrato, que dependem de um amo. É um sistema de castas. A Karla, por exemplo, não é escrava: é militar, de patente superior."
           }
         },
         {
@@ -4601,6 +4598,90 @@
         }
       ],
       "ordered": true
+    },
+    {
+      "id": "patch",
+      "type": "topic",
+      "priority": 2,
+      "complexity": "complex",
+      "ordered": true,
+      "keywords": {
+        "es": [
+          "el parche",
+          "los parches",
+          "que es el parche",
+          "parche de conocimiento",
+          "parche en el brazo",
+          "parche en el cuello",
+          "como aprenden",
+          "como estudian",
+          "como se aprende",
+          "hay libros",
+          "que libros",
+          "que leen",
+          "leer libros",
+          "biblioteca",
+          "aprender un libro",
+          "como aprendes",
+          "parche"
+        ],
+        "en": [
+          "the patch",
+          "patches",
+          "what is the patch",
+          "knowledge patch",
+          "patch on the arm",
+          "patch on the neck",
+          "how do you learn",
+          "how do you study",
+          "are there books",
+          "what books",
+          "what do you read",
+          "library",
+          "learn a book"
+        ],
+        "pt-BR": [
+          "o adesivo",
+          "o patch",
+          "os patches",
+          "adesivo de conhecimento",
+          "como aprendem",
+          "como estudam",
+          "tem livros",
+          "que livros",
+          "o que leem",
+          "biblioteca",
+          "aprender um livro",
+          "patch no braco",
+          "patch no pescoco"
+        ]
+      },
+      "answers": [
+        {
+          "mood": "happy",
+          "text": {
+            "es": "Acá nadie lee un libro como en la Tierra: usamos el parche. Es como un sticker que se carga con el contenido del libro, te lo pegás en el brazo o en el cuello, y transmite la información al cerebro por frecuencia, a través de la piel. En unos 5 minutos sabés lo que a otro le llevaría horas de lectura. ¿Querés saber quién puede usar qué libros?",
+            "en": "Nobody here reads a book like on Earth: we use the patch. It's like a sticker loaded with a book's content; you stick it on your arm or neck, and it sends the information to your brain by frequency, through the skin. In about 5 minutes you know what would take someone hours of reading. Want to know who gets to use which books?",
+            "pt-BR": "Aqui ninguém lê um livro como na Terra: usamos o adesivo, o patch. É como um sticker carregado com o conteúdo do livro; você cola no braço ou no pescoço e ele transmite a informação ao cérebro por frequência, pela pele. Em uns 5 minutos você sabe o que levaria horas de leitura. Quer saber quem pode usar quais livros?"
+          }
+        },
+        {
+          "mood": "tired",
+          "text": {
+            "es": "Y ahí está el truco: depende de tu casta. A los esclavos solo nos cargan parches de literatura romántica y de ficción. Los de una casta superior acceden a los otros: ciencia, matemáticas, historia. O sea, yo puedo vivir un romance entero en cinco minutos, pero de física no me dejan ni un capítulo.",
+            "en": "And there's the catch: it depends on your caste. Slaves like us only get patches of romance and fiction. Those from a higher caste have access to the others: science, mathematics, history. So I can live through an entire romance in five minutes, but they won't let me have a single chapter of physics.",
+            "pt-BR": "E aí está o truque: depende da sua casta. Nós, escravos, só recebemos patches de literatura romântica e ficção. Os de uma casta superior acessam os outros: ciência, matemática, história. Ou seja, posso viver um romance inteiro em cinco minutos, mas de física não me deixam ter nem um capítulo."
+          }
+        },
+        {
+          "mood": "calm",
+          "text": {
+            "es": "Lo que sé de ingeniería lo traje de la Tierra, de estudiar a la antigua. Y la verdad, algún parche de novela me tocó en las noches malas, jaja. Pero se nota quién tiene acceso a qué: el que sabe de ciencia manda, y el que solo sabe de ficción obedece. Ahí está buena parte del sistema.",
+            "en": "What I know about engineering I brought from Earth, from studying the old-fashioned way. And honestly, I've used a novel patch on bad nights, haha. But you can tell who has access to what: whoever knows science gives orders, and whoever only knows fiction obeys. That's a big part of the system.",
+            "pt-BR": "O que sei de engenharia trouxe da Terra, de estudar à moda antiga. E sinceramente, já usei um patch de romance em noites ruins, haha. Mas dá para ver quem tem acesso a quê: quem sabe ciência manda, e quem só sabe ficção obedece. Aí está boa parte do sistema."
+          }
+        }
+      ]
     }
   ],
   "events": [
