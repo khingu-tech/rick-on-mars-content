@@ -4623,7 +4623,14 @@
           "biblioteca",
           "aprender un libro",
           "como aprendes",
-          "parche"
+          "parche",
+          "borrado de memoria",
+          "borran la memoria",
+          "se puede borrar",
+          "olvidar lo aprendido",
+          "tratamiento de borrado",
+          "borrar lo aprendido",
+          "que pasa con lo que aprendiste"
         ],
         "en": [
           "the patch",
@@ -4638,7 +4645,12 @@
           "what books",
           "what do you read",
           "library",
-          "learn a book"
+          "learn a book",
+          "memory wipe",
+          "erase memory",
+          "can it be erased",
+          "forget what you learned",
+          "erasing treatment"
         ],
         "pt-BR": [
           "o adesivo",
@@ -4653,7 +4665,12 @@
           "biblioteca",
           "aprender um livro",
           "patch no braco",
-          "patch no pescoco"
+          "patch no pescoco",
+          "apagar a memoria",
+          "apagam a memoria",
+          "da para apagar",
+          "esquecer o que aprendeu",
+          "tratamento de apagamento"
         ]
       },
       "answers": [
@@ -4679,6 +4696,14 @@
             "es": "Mi parche de ingeniería no lo compré: me recibí en la UNR, en Rosario, antes de los 25, y al llegar la IA preparó uno para adaptar lo que ya sabía al trabajo que iba a hacer. Los militares lo imprimen en una máquina especial y me lo aplicaron a mí. Yo no elegí nada de eso, ni sé qué más venía cargado en ese parche.",
             "en": "I didn't buy my engineering patch: I graduated at the UNR, in Rosario, before I turned 25, and when I arrived the AI prepared one to adapt what I already knew to the job I'd be doing. The military prints it on a special machine and they applied it to me. I chose none of that, and I don't know what else came loaded in that patch.",
             "pt-BR": "O meu patch de engenharia eu não comprei: me formei na UNR, em Rosário, antes dos 25, e quando cheguei a IA preparou um para adaptar o que eu já sabia ao trabalho que faria. Os militares imprimem numa máquina especial e aplicaram em mim. Eu não escolhi nada disso, nem sei o que mais veio carregado nesse patch."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Una cosa más: lo que aprendés con un parche no se borra. Y el parche solo carga lo que antes se aprendía leyendo un libro, nada más, aunque no sea solo técnico: también entra el romance y la ficción. Al terminar el contrato dicen que te hacen un tratamiento de borrado de memoria. Hay quien jura que en realidad no te borran nada: solo cambian de lugar lo aprendido y lo esconden, para que sea casi imposible recuperarlo. Yo prefiero no pensarlo todavía.",
+            "en": "One more thing: what you learn with a patch can't be erased. And the patch only loads what used to be learned by reading a book, nothing more, though it's not only technical: romance and fiction go in too. When your contract ends, they say you get a memory-erasing treatment. Some swear they don't really erase anything: they just move what you learned somewhere else and hide it, so it's almost impossible to recover. I'd rather not think about it yet.",
+            "pt-BR": "Mais uma coisa: o que você aprende com um patch não se apaga. E o patch só carrega o que antes se aprendia lendo um livro, nada além, embora não seja só técnico: romance e ficção também entram. Ao terminar o contrato, dizem que fazem um tratamento de apagamento de memória. Tem quem jure que na verdade não apagam nada: só mudam de lugar o que você aprendeu e escondem, para ser quase impossível recuperar. Prefiro não pensar nisso ainda."
           }
         }
       ]
