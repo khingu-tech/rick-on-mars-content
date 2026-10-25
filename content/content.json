@@ -4499,7 +4499,17 @@
           "los pedidos a la tierra",
           "como se decide que se pide",
           "como se reparte la comida",
-          "quien lleva la cuenta"
+          "quien lleva la cuenta",
+          "son esclavos",
+          "esclavos",
+          "castas",
+          "sistema de castas",
+          "quien administra la colonia",
+          "la inteligencia artificial",
+          "creditos",
+          "tony rodrigues",
+          "comercio con otras colonias",
+          "trueque"
         ],
         "en": [
           "how are you organized economically",
@@ -4517,7 +4527,16 @@
           "who decides the orders",
           "orders to earth",
           "how is food shared",
-          "who keeps the books"
+          "who keeps the books",
+          "slaves",
+          "slavery",
+          "caste system",
+          "castes",
+          "who runs the colony",
+          "credits",
+          "tony rodrigues",
+          "trade with other colonies",
+          "barter"
         ],
         "pt-BR": [
           "como se organizam economicamente",
@@ -4535,35 +4554,53 @@
           "quem decide os pedidos",
           "pedidos a terra",
           "como se divide a comida",
-          "quem faz a contabilidade"
+          "quem faz a contabilidade",
+          "escravos",
+          "escravidao",
+          "sistema de castas",
+          "castas",
+          "quem administra a colonia",
+          "creditos",
+          "tony rodrigues",
+          "comercio com outras colonias",
+          "troca"
         ]
       },
       "answers": [
         {
-          "mood": "calm",
+          "mood": "tired",
           "text": {
-            "es": "Buena pregunta. Acá adentro casi no circula plata: todo lo esencial (aire, agua, comida, cama) lo pone la colonia y se reparte parejo. Cada uno aporta con su trabajo, el mío es soporte vital, el de Anastasia las plantas. Lo que no alcanza, llega desde la Tierra en las ventanas de carga, y ahí sí se cuenta todo, hasta los tornillos. ¿Querés que te cuente cómo se decide qué se pide, o cómo se reparte la comida?",
-            "en": "Good question. In here money barely circulates: the essentials (air, water, food, a bed) are provided by the colony and shared evenly. Everyone contributes with their work: mine is life support, Anastasia's is the plants. What we're short of comes from Earth in the cargo windows, and there everything is counted, even the screws. Want to hear how we decide what to order, or how the food is shared out?",
-            "pt-BR": "Boa pergunta. Aqui dentro quase não circula dinheiro: o essencial (ar, água, comida, cama) é a colônia que dá e é dividido por igual. Cada um contribui com seu trabalho: o meu é suporte vital, o da Anastasia são as plantas. O que falta chega da Terra nas janelas de carga, e aí sim se conta tudo, até os parafusos. Quer que eu conte como se decide o que pedir, ou como se divide a comida?"
+            "es": "Mirá, acá no hay plata: hay créditos, como fichas que se renuevan una vez por mes y alcanzan para lo básico. Los recursos no los reparte una persona: los administra una inteligencia artificial que lleva todo al gramo. Si querés, te cuento cómo está armada la gente en la colonia, que es lo más raro.",
+            "en": "Look, there's no cash here: there are credits, like tokens that renew once a month and cover the basics. Resources aren't handed out by a person: an artificial intelligence manages them down to the gram. If you want, I can tell you how people are arranged in the colony, which is the strangest part.",
+            "pt-BR": "Olha, aqui não tem dinheiro: tem créditos, como fichas que se renovam uma vez por mês e cobrem o básico. Os recursos não são distribuídos por uma pessoa: uma inteligência artificial administra tudo no grama. Se quiser, te conto como as pessoas estão organizadas na colônia, que é a parte mais estranha."
+          }
+        },
+        {
+          "mood": "worried",
+          "text": {
+            "es": "Y te lo digo como es: por contrato soy un trabajador, pero en la organización de la colonia somos esclavos. Hay esclavos con contrato, como yo, y esclavos sin contrato, que dependen de un amo. Es un sistema de castas. Karla, por ejemplo, no es esclava: es militar, de un rango superior. Tony Rodrigues lo explica bien en sus libros y entrevistas, si te da curiosidad.",
+            "en": "I'll tell you how it is: on paper I'm a contract worker, but in the colony's organization we're slaves. There are slaves with a contract, like me, and slaves without one, who depend on a master. It's a caste system. Karla, for instance, isn't a slave: she's military, a higher rank. Tony Rodrigues explains it well in his books and interviews, if you're curious.",
+            "pt-BR": "Vou te dizer como é: no contrato sou trabalhador, mas na organização da colônia somos escravos. Há escravos com contrato, como eu, e escravos sem contrato, que dependem de um amo. É um sistema de castas. A Karla, por exemplo, não é escrava: é militar, de patente superior. O Tony Rodrigues explica isso bem nos livros e entrevistas dele, se tiver curiosidade."
           }
         },
         {
           "mood": "tired",
           "text": {
-            "es": "Pensalo como un barco largo: nadie compra el agua, pero todos tenemos turnos y tareas, y Karla lleva la cuenta de lo que entra y lo que se gasta. Los recursos son pocos, así que se planifican por ciclos, y cada pedido a la Tierra tarda meses en llegar. Por eso acá no se desperdicia nada. ¿Qué parte te intriga más: el reparto, los pedidos o el trabajo?",
-            "en": "Think of it as a long voyage: nobody buys water, but we all have shifts and duties, and Karla keeps the books on what comes in and what gets used. Resources are scarce, so they're planned in cycles, and every request to Earth takes months to arrive. That's why nothing gets wasted here. Which part intrigues you most: the sharing, the orders, or the work?",
-            "pt-BR": "Pense numa viagem longa: ninguém compra a água, mas todos temos turnos e tarefas, e a Karla leva a contabilidade do que entra e do que se gasta. Os recursos são poucos, então se planejam por ciclos, e cada pedido à Terra leva meses para chegar. Por isso aqui nada se desperdiça. Que parte te intriga mais: a divisão, os pedidos ou o trabalho?"
+            "es": "Trabajar, se trabaja, eso no se discute. Lo que cambia es qué te toca: trabajos de inteligencia, o los duros, como mover contenedores de comida, minería o ejercicios militares para repeler ataques de los seres originarios del planeta. Y si no rendís o incumplís lo acordado, la IA te pasa a otra sección con tareas menos exigentes. Karla no manda por su cuenta: ella accede a la IA, que le indica cómo administrar los recursos.",
+            "en": "Work, you work, no debate there. What changes is what falls to you: intelligence work, or the hard jobs, like hauling food containers, mining, or military drills to repel attacks from the planet's native beings. And if you underperform or miss what was agreed, the AI moves you to another section with less demanding tasks. Karla doesn't decide on her own: she has access to the AI, which tells her how resources must be managed.",
+            "pt-BR": "Trabalhar, se trabalha, isso não se discute. O que muda é o que te cabe: trabalho de inteligência, ou os pesados, como carregar contêineres de comida, mineração ou exercícios militares para repelir ataques dos seres nativos do planeta. E se você não rende ou descumpre o combinado, a IA te passa para outra seção com tarefas menos exigentes. A Karla não manda por conta própria: ela acessa a IA, que diz como administrar os recursos."
           }
         },
         {
           "mood": "calm",
           "text": {
-            "es": "En resumen: puertas adentro es una economía de aporte y reparto, sin sueldos de bolsillo; hacia afuera, es un contrato con la Tierra que lo financia todo. De mi contrato en sí no puedo contarte más, pero sí cómo vivimos el día a día. Preguntame lo que quieras: los turnos, la comida, o qué pasa cuando algo se rompe.",
-            "en": "In short: inside it's an economy of contribution and sharing, with no pocket wages; outward-facing, it's a contract with Earth that funds everything. I can't tell you more about my contract itself, but I can tell you how we live day to day. Ask me anything: the shifts, the food, or what happens when something breaks.",
-            "pt-BR": "Resumindo: portas adentro é uma economia de contribuição e divisão, sem salário no bolso; para fora, é um contrato com a Terra que financia tudo. Do meu contrato em si não posso contar mais, mas posso contar como vivemos o dia a dia. Pergunte o que quiser: os turnos, a comida, ou o que acontece quando algo quebra."
+            "es": "Lo que falta llega de la Tierra en las ventanas de carga. Pero también hay comercio con otras colonias, en lunas de otros planetas, y con seres que viven en otros mundos: trueque a gran escala, minerales raros por alimentos, o medicinas por tecnología que ni sé cómo funciona. Mucha tecnología de punta entra así. De mi contrato sé poco, lo que me contaron; nunca leí la letra chica, y por eso a veces me mandan a hacer cosas que ni sé si me tocan. Preguntame lo que quieras sobre eso.",
+            "en": "What's missing arrives from Earth in the cargo windows. But there's also trade with other colonies, on moons of other planets, and with beings who live on other worlds: barter on a huge scale, rare minerals for food, or medicine for technology I don't even understand. A lot of cutting-edge tech comes in that way. I know little about my contract, only what I was told; I never read the fine print, so sometimes they send me to do things I don't even know are my job. Ask me anything about it!",
+            "pt-BR": "O que falta chega da Terra nas janelas de carga. Mas também há comércio com outras colônias, em luas de outros planetas, e com seres de outros mundos: troca em larga escala, minerais raros por comida, ou remédios por tecnologia que nem sei como funciona. Muita tecnologia de ponta entra assim. Do meu contrato sei pouco, o que me contaram; nunca li as letras miúdas, e por isso às vezes me mandam fazer coisas que nem sei se são minhas. Pergunte o que quiser sobre isso!"
           }
         }
-      ]
+      ],
+      "ordered": true
     }
   ],
   "events": [
